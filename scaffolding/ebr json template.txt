@@ -1,0 +1,18 @@
+{
+  "id": "<set-###-slug-or-title-slug>",
+  "title": "<Card Title>",
+  "card_type": "Being",
+  "traits": ["<Trait1>", "<Trait2>"],
+  "presence": 0,
+  "harm_threshold": 0,
+  "progress_threshold": 0,
+  "enters_play": "along_the_way",
+  "enters_play_with": { "type": null, "amount": 0 },
+  "rules": [
+    { "kind": "static", "challenge_symbol": null, "text": "<…>" },
+    { "kind": "test", "challenge_symbol": null, "text": "<…>" },
+    { "kind": "challenge", "challenge_symbol": "sun", "text": "<…>" },
+    { "kind": "challenge", "challenge_symbol": "mountain", "text": "<…>" },
+    { "kind": "challenge", "challenge_symbol": "crest", "text": "<…>" }
+  ]
+}

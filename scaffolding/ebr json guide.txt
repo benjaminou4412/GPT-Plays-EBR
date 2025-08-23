@@ -1,0 +1,84 @@
+Field-by-field extraction guide (from the card image)
+
+title
+
+	Location: large text at the very top.
+
+	Copy exactly. Don’t infer or translate.
+
+card_type and traits
+
+	Location: the small line under the title. It looks like Being / Predator / Mammal or Feature / Flora / Structure.
+
+	Parsing: split on /. Trim spaces. The first token is card_type. Everything after that, in order, goes into traits.
+
+presence
+
+	Location: purple square at top-right.
+
+	Write the integer shown, or the literal "X" when printed as X.
+
+harm_threshold and progress_threshold
+
+	Location: the paired squares near the bottom-right of the art/rules area. Red on the left (harm), blue on the right (progress).
+
+	Copy each number exactly; use "X" if the square shows X.
+
+enters_play
+
+	Location: tiny arrow under the set icon at top-left.
+
+	Upward arrow → "along_the_way".
+
+	Downward arrow → "within_reach".
+
+enters_play_with
+
+	Location: small box immediately under the presence diamond. Looks like 1 bees, etc.
+
+	If present: type is the lowercase resource name exactly as printed (e.g., "bees"), and amount is its integer (e.g., 1).
+
+	If absent: set type to null and amount to 0.
+
+rules (list, in printed order)
+Identify each distinct text block/banner in the beige text area from top to bottom. For each, create an object:
+
+	kind
+
+		"static": ordinary rule lines with no challenge icon band. Includes lines prefixed with words like Refresh: or explanatory sentences like “X is equal to…”.
+
+		"test": a rules line that describes a test/cost sequence rather than a challenge banner. Often shows aspect abbreviations like AWA + : before the colon; still no challenge icon.
+
+		"challenge": appears on a colored banner with an icon at the left. This is always one of the three challenge symbols below.
+
+	challenge_symbol
+
+		For "challenge" rules, map the icon/color to:
+
+			"sun" = yellow circular/sun symbol (often used for “ready/energize”-type effects).
+
+			"mountain" = blue mountain/peak icon.
+
+			"crest" = red crest/shield icon.
+
+		For "static" and "test", set to null.
+
+	text
+
+		Copy the printed sentence(s) for that line/banner.
+
+		Keep formatting tokens: → (arrow), numbers, “X”, labels like “Refresh:”, and game terms (“exhaust”, “ready”, “suffer 1 injury”, “presence”).
+
+		If the line references tokens, name them exactly as the card does (e.g., “harm token”, “progress token”).
+
+		Don’t invent keywords beyond what’s printed.
+
+Quality checks an LLM should perform
+
+	If kind is "challenge", challenge_symbol must be one of sun|mountain|crest. Otherwise it must be null.
+
+	If enters_play_with.type is null, amount must be 0.
+
+	Use "X" (uppercase string) exactly where the card prints X; don’t convert X to numbers.
+
+	Preserve the original order of rules as printed.

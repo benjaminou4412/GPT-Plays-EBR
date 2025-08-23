@@ -1,0 +1,86 @@
+{
+  "title": "Earthborne Rangers Card",
+  "type": "object",
+  "required": ["id", "title", "card_type", "traits", "presence", "harm_threshold", "progress_threshold", "enters_play", "enters_play_with", "rules"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug for the card. Suggested: <set>-<###>-<lowercase-dashed-title> (e.g., woods-002-prowling-wolhund). If set/number are unknown, use a dashed title slug."
+    },
+    "title": {
+      "type": "string",
+      "description": "Card name exactly as printed (preserve capitalization and diacritics)."
+    },
+    "card_type": {
+      "type": "string",
+      "enum": ["Being", "Feature"],
+      "description": "The leftmost term in the line under the title."
+    },
+    "traits": {
+      "type": "array",
+      "minItems": 0,
+      "items": { "type": "string" },
+      "description": "All remaining terms in the line under the title, split on '/' and trimmed (e.g., ['Predator','Mammal'])."
+    },
+    "presence": {
+      "oneOf": [{ "type": "integer", "minimum": 0 }, { "const": "X" }],
+      "description": "Value in the purple diamond at top-right. Use integer or the literal string 'X' if shown."
+    },
+    "harm_threshold": {
+      "oneOf": [{ "type": "integer", "minimum": 0 }, { "const": "X" }],
+      "description": "Number in the red square at lower left of the thresholds pair. Use integer or 'X'."
+    },
+    "progress_threshold": {
+      "oneOf": [{ "type": "integer", "minimum": 0 }, { "const": "X" }],
+      "description": "Number in the blue square at lower right of the thresholds pair. Use integer or 'X'."
+    },
+    "enters_play": {
+      "type": "string",
+      "enum": ["along_the_way", "within_reach"],
+      "description": "Arrow under the set symbol (top-left): upward = 'along_the_way'; downward = 'within_reach'."
+    },
+    "enters_play_with": {
+      "type": "object",
+      "required": ["type", "amount"],
+      "properties": {
+        "type": {
+          "type": ["string", "null"],
+          "description": "Resource name printed directly under the presence diamond (e.g., 'bees'). Null if no resource is shown."
+        },
+        "amount": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number shown with that resource (e.g., 1 for '1 bees'). If type is null, set amount to 0."
+        }
+      },
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["kind", "challenge_symbol", "text"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["static", "test", "challenge"],
+            "description": "How the rule appears in the rules text area."
+          },
+          "challenge_symbol": {
+            "type": ["string", "null"],
+            "enum": ["sun", "mountain", "crest", null],
+            "description": "For challenge rules, map the icon to 'sun' (yellow), 'mountain' (blue), or 'crest' (red). For static/test, use null."
+          },
+          "text": {
+            "type": "string",
+            "description": "Verbatim or near-verbatim rule text, preserving symbols like '→', 'X', and labels like 'Refresh:'."
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "All rule lines and challenge banners in top-to-bottom order as printed on the card."
+    }
+  },
+  "additionalProperties": false
+}
