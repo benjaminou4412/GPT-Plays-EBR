@@ -27,6 +27,8 @@ presence
 
 	Write the integer shown, or the literal "X" when printed as X.
 
+	If a logbook icon with a number appears next to presence, record that number as campaign_log_entry (string). Otherwise omit/leave null.”
+
 harm_threshold and progress_threshold
 
 	Location: the paired squares near the bottom-right of the art/rules area. Red on the left (harm), blue on the right (progress).

@@ -15,4 +15,5 @@
     { "kind": "challenge", "challenge_symbol": "mountain", "text": "<…>" },
     { "kind": "challenge", "challenge_symbol": "crest", "text": "<…>" }
   ]
+  "campaign_log_entry": null
 }

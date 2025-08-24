@@ -90,6 +90,11 @@
         "additionalProperties": false
       },
       "description": "All rule lines and challenge banners in top-to-bottom order as printed on the card."
+    },
+    "campaign_log_entry": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]+(\\.[0-9]+)?$",
+      "description": "Campaign Log entry id printed next to the log icon."
     }
   },
   "additionalProperties": false
