@@ -359,5 +359,167 @@
         "text": "If this mission is attached, exhaust a non-human being. »» Unattach this mission unless a ranger spends 1 FOC energy."
       }
     ]
+  },
+  {
+    "id": "mission3-001-invasion-stage-i",
+    "title": "Invasion - Stage I",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "The strange biomelds known as 'reclaimers' are swarming over the Valley. More appear each day.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Path Deck Assembly: Based on the number of days since you received this mission, check whether your destination has a trait that matches a listed trait. If it does, search the General set for 3 Reclaimer Seekers and shuffle them into the path deck. 0-2 Days: Ruin. 3-4 Days: Ruin, Forest. 5-6 Days: Ruin, Forest, Mountain"
+      }
+    ]
+  },
+  {
+    "id": "mission3-002-spire-under-attack",
+    "title": "Spire Under Attack!",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "A horde of reclaimers is moving towards Spire! You'll have to get there right away to help with the evacuation.",
+    "mission_locations": [
+      "Spire"
+    ],
+    "mission_objective": "Arrive at Spire: [Campaign Log Entry] 1.29",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "End of the Day: Check off one bubble next to this mission."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Suffer 1 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "mission3-003-lure",
+    "title": "Lure",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Locate one of the local mega-predators by finding prey to lure it out.",
+    "mission_locations": [],
+    "mission_objective": "Arrive at a new location while there is 5 or more total presence of prey set aside: [Campaign Log Entry] 1.42",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a prey is cleared, you can set it aside instead of discarding it."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there are 2 active predators and at least 1 set-aside prey, exhaust them. »» Return 1 set-aside prey to the collection."
+      }
+    ]
+  },
+  {
+    "id": "mission3-004-search",
+    "title": "Search",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You are following the trail of a missing local.",
+    "mission_locations": [],
+    "mission_objective": "Have 4R or more trail tokens on this mission: [Campaign Log Entry] 1.45",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "If your current location is not a Ranger Station, when a feature comes into play, place 2 trail tokens on it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a card with trail tokens on it is cleared, place those tokens on this card."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "They must have come this way. Move 1 trail token from a feature to another feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "The trail grows cold. Remove 1 trail token from a feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "The urgency of the task weighs on you. Suffer 1 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "mission3-005-arcology-archaeology",
+    "title": "Arcology Archaeology",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Silaro Mako has asked you to keep an eye out for remnants of the old arcology for him.",
+    "mission_locations": [],
+    "mission_objective": "After this mission has 3 check marks, find Silaro Mako to continue.",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After a ruin is cleared: [Campaign Log Entry] 1.49"
+      }
+    ]
   }
 ]
