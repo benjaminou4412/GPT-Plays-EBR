@@ -1,0 +1,156 @@
+[
+  {
+    "id": "meadow-001-elder-jular-abel",
+    "title": "Elder Jular Abel",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": "2R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Listen [3] to the wisdom of the elders to return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 69"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "69"
+  },
+  {
+    "id": "meadow-002-jaris-willful-youth",
+    "title": "Jaris, Willful Youth",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Fatiguing. Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection]: Speak [2] with Jaris about your time in the Rangers to soothe 1 fatigue for every 2 effort. Then add an equal amount of [symbol] to Jaris."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 70"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is an exhausted predator, Jaris stirs up trouble. »» Ready that predator unless you discard 2[progress] from Jaris."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "70"
+  },
+  {
+    "id": "meadow-003-trained-stilt-horse",
+    "title": "Trained Stilt-Horse",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "If this being is attached to your role, it gains Persistent and the following test:"
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [connection]: Ride the long-limbed steed to add 2[progress] to a location or feature for every effort."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress]: [Campaign Log Entry] 68"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "68"
+  },
+  {
+    "id": "meadow-004-grower-s-assemblage",
+    "title": "Grower's Assemblage",
+    "card_type": "Feature",
+    "traits": [
+      "Structure"
+    ],
+    "presence": 2,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection]: Haggle [3] with the vendors of the market to return a gear from your hand to your collection to choose a starting gear from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)"
+      }
+    ],
+    "campaign_log_entry": "46"
+  }
+]
