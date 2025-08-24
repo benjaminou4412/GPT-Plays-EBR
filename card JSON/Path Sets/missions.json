@@ -1,5 +1,37 @@
 [
   {
+    "id": "mission-008-biscuit-basket",
+    "title": "Biscuit Basket",
+    "card_type": "Gear",
+    "traits": [
+      "Food"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": "player_area",
+    "enters_play_with": {
+      "type": "biscuits",
+      "amount": 3
+    },
+    "description": null,
+    "mission_locations": [],
+    "mission_objective": "Have 0 biscuits on this gear: [Campaign Log Entry] 1.02",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [connect]: Give [2] a biscuit to move 1 biscuit to a human that does not have a biscuit on them and add 4[progress] to them."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Sneak a biscuit to soothe 3 fatigue and move 1 biscuit to your role."
+      }
+    ]
+
+  },
+  {
     "id": "mission-001-journey",
     "title": "Journey",
     "card_type": "Mission",
@@ -9,7 +41,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -29,7 +61,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -60,7 +92,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -89,7 +121,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -120,7 +152,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -160,7 +192,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -171,7 +203,7 @@
       "High Basin",
       "Mound of the Navigator"
     ],
-    "mission_objective": "Have 3[symbol] on this mission: [Campaign Log Entry] 1.09",
+    "mission_objective": "Have 3[progress] on this mission: [Campaign Log Entry] 1.09",
     "rules": [
       {
         "kind": "static",
@@ -200,7 +232,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -246,7 +278,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -277,7 +309,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -303,7 +335,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -331,7 +363,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -351,7 +383,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "When feature with this mission attached is cleared, add 1[symbol] to this mission."
+        "text": "When feature with this mission attached is cleared, add 1[progress] to this mission."
       },
       {
         "kind": "challenge",
@@ -370,7 +402,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -396,7 +428,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -429,7 +461,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -460,7 +492,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -506,7 +538,7 @@
     "presence": null,
     "harm_threshold": -1,
     "progress_threshold": -1,
-    "enters_play": null,
+    "enters_play": "surroundings",
     "enters_play_with": {
       "type": null,
       "amount": 0
@@ -519,6 +551,429 @@
         "kind": "static",
         "challenge_symbol": null,
         "text": "After a ruin is cleared: [Campaign Log Entry] 1.49"
+      }
+    ]
+  },
+  {
+    "id": "mission4-001-invasion-stage-ii",
+    "title": "Invasion - Stage II",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "The reclaimers are everywhere. They seem to be creating nests in certain locations.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Path Deck Assembly: If your destination is a Ruin, Forest, or Mountain, search the General set for 1 Reclaimer Polyp and shuffle it into the path deck. Additionally, shuffle in a number of Reclaimer Seekers based on the number of days since you received this mission. 0-2 Days: 1 Reclaimer Seeker. 3-4 Days: 2 Reclaimer Seekers. 5-6 Days: 3 Reclaimer Seekers"
+      }
+    ]
+  },
+  {
+    "id": "mission4-002-the-fall-of-spire",
+    "title": "The Fall of Spire",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "The Reclaimers are swarming into Spire! Get as many people to safety as possible.",
+    "mission_locations": [
+      "Spire"
+    ],
+    "mission_objective": "Save the groups being led by Mora, Dace, and Tollin. Then, travel away from Spire: [Campaign Log Entry] 1.30",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "End of the Day: If you haven't completed this mission: [Campaign Log Entry] 1.31"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use [Campaign Log Entry] 93 instead of the normal entries for cards from the Spire set."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1 mucus token to the location. If there is 3 or more mucus, discard them. »» Put a Reclaimer Polyp into play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Add [harm] to a feature equal to Reclaimers in play. If this clears the feature, a wall collapses. »» Each Ranger suffers 3 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "mission4-003-confront",
+    "title": "Confront",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You've found the mega-predator! Now it's time to deal with it once and for all.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When the subject of this mission is cleared, resolve the following effects instead:"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [harm]: Permanently kill the majestic mega-predator [Campaign Log Entry] 1.44"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress]: Befriend and calm the beast so it is no longer an issue [Campaign Log Entry] 1.43"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If the predator has 2R or more [progress], resolve its [crest] effect."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If the predator has 3R or more [harm], move it."
+      }
+    ]
+  },
+  {
+    "id": "mission4-004-rescue",
+    "title": "Rescue",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You've found the missing person! Get them back to the safety of a Ranger Station as quickly as possible.",
+    "mission_locations": [],
+    "mission_objective": "Arrive at a Ranger Station: [Campaign Log Entry] 1.46",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Start of the Day: [Campaign Log Entry] 1.47"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "The subject of this mission gains Persistent."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When the subject of this mission is cleared, resolve the following effects instead:"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [harm]: They worsen and you will have to carry them going forward. [Campaign Log Entry] 1.48"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress]: Discard all [progress] from this being. They remain in play. Do not read their entry."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is no active predator. »» Search the path deck and discard for the next predator and put it into play."
+      }
+    ]
+  },
+  {
+    "id": "mission4-005-intervention",
+    "title": "Intervention",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You've agreed to help Kordo remove the unnatural biomeld Caustic Mulcher from the ecosystem. Explore the woodlands of the Valley, where Caustic Mulchers can be found.",
+    "mission_locations": [],
+    "mission_objective": "Clear a Caustic Mulcher with [harm]: [Campaign Log Entry] 1.41",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "At any point, the group can choose to change their mind and help Nal instead. If they do, flip this card into Accomodation. Replace Intervention with Accommodation on the campaign tracker."
+      }
+    ]
+  },
+  {
+    "id": "mission4-006-watcher-in-the-brush",
+    "title": "Watcher in the Brush",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You have felt a lurking presence following you since your discovery of the strange biomeld corpses. It generally stays out of sight, so you are going to have to confront it to figure out what it wants.",
+    "mission_locations": [],
+    "mission_objective": "Clear the Mysterious Verdessian with [progress]",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Path Deck Assembly: Add the Mysterious Verdessian to the path deck."
+      }
+    ]
+  },
+  {
+    "id": "mission5-001-secret-invasion",
+    "title": "Secret Invasion",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Search for signs of reclaimers to figure out how many are present in the Valley.",
+    "mission_locations": [],
+    "mission_objective": "Clear a Reclaimer Seeker: [Campaign Log Entry] 1.10",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Path Deck Assembly: At any non-pivotal location, search the General set for 5 Reclaimer Seekers and shuffle them into the Valley set before adding those cards to the path deck."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [exploration]: Search for signs of these strange biomelds to scout a number of path cards equal to twice your effort. Put each Reclaimer card you look at into play."
+      }
+    ]
+  },
+  {
+    "id": "mission5-002-deeper-motives",
+    "title": "Deeper Motives",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Help Nal commune with the Verdessian.",
+    "mission_locations": [
+      "Tumbledown"
+    ],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use [Campaign Log Entry] 92 instead of the normal entries for this location and for Spirit Speaker Nal and the Mysterious Verdessian while at this location."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If Nal and the Mysterious Verdessian are in play and ready, Nal gets through to them. »» [Campaign Log Entry] 1.12"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If Nal and the Mysterious Verdessian are in play, the Verdessian tries to flee. »» Exhaust Nal unless a ranger suffers 2 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "mission5-003-into-the-nest",
+    "title": "Into the Nest",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Travel into the reclaimer nest to study what they are doing in the Valley.",
+    "mission_locations": [
+      "Alluvial Ruins"
+    ],
+    "mission_objective": "Have 3[progress] on this mission: [Campaign Log Entry] 1.17",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use [Campaign Log Entry] 1.16 instead of the normal entries for this location."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a Reclaimer Grub is cleared while at the Alluvial Ruins, place 1[progress] on this mission."
+      }
+    ]
+  },
+  {
+    "id": "mission5-004-the-valley-s-secrets",
+    "title": "The Valley's Secrets",
+    "card_type": "Mission",
+    "traits": [
+      "Epilogue"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "With the reclaimers gone from the Valley, you can return to helping the inhabitants.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When each of the following entries are written on your campaign tracker: [Campaign Log Entry] 1.33\n• Met an Interloper\n• Spoke With a Spirit\n• Found the Perfect Fishing Spot\n• Proved Silaro's Hypothesis\n• Seen a Person Fly\n• Erected a Mighty Statue\n• Discovered the Philosopher's Honey\n• Carved a Dolewood Canoe\n• Celebrated the Harvest Festival\n• Faced Your Deepest Fears\n• Pruned the Hydraworm\n• Witnessed a Masterpiece\n• Found Tala a Home"
+      }
+    ]
+  },
+  {
+    "id": "mission5-005-washed-away",
+    "title": "Washed Away",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Wash away the reclaimers with Aell's flood.",
+    "mission_locations": [],
+    "mission_objective": "Have 2+R [progress] on this mission: [Campaign Log Entry] 1.23",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a Reclaimer is discarded by a Flood, do not suffer fatigue. Instead, add 1[progress] to this card."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "End of the Day: If you haven't completed this mission [Campaign Log Entry] 1.22"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If Aell is active, he summons a torrent of water. »» Add 1 flood token to a card of your choice."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there are no active Reclaimers. »» Search the path deck and discard for the next Reclaimer and put it into play."
+      }
+    ]
+  },
+  {
+    "id": "mission5-006-gruesome-feast",
+    "title": "Gruesome Feast",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Wait until you're certain enough Reclaimers have been lured, and then escape!",
+    "mission_locations": [],
+    "mission_objective": "Travel away while this mission is attached to the location: [Campaign Log Entry] 1.27",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When there are 2+R Reclaimers in play, attach this mission to the location."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Lure Reclaimers deeper into the swamp to scout path cards equal to twice your effort. Put each Reclaimer card you look at into play. If they have the ambush keyword, treat them as if they do not."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "End of the Day: If you haven't completed this mission: [Campaign Log Entry] 1.28"
       }
     ]
   }

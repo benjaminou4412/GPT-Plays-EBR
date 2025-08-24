@@ -9,6 +9,7 @@ CORE PRINCIPLES
 - Rules Step: When rules give you numbered steps (e.g., round phases or test steps), do them in order. If a step says “for each …,” each individual resolution is its own step.
 - “You”: Unless a card says otherwise, “you” means the Ranger whose card/ability/test is being resolved.
 - Timing keywords (in brief): “Setup” = during setup only. “Start of Day” = once at the beginning of a day. “Refresh:” = during Phase 4. “Response:” = when the stated trigger happens; must resolve if it can.
+- The letter "R": A capital R should be read as "per ranger". Typically it accompanies an integer quantity, so "2R" should be read as "2 per ranger". For solo play, R=1.
 
 THE PLAY AREA (ZONES)
 - Player Area (one per Ranger): your role card, aspect card, equipped gear, Ranger deck, and discard pile.
