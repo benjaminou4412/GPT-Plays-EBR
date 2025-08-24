@@ -1,6 +1,6 @@
 General rules:
 
-	If rules text contains an unrecognized symbol, just drop in "[symbol]" as a placeholder.
+	If rules text contains an unrecognized symbol, just drop in "[symbol]" as a placeholder. One exception: a logbook symbol, which should be represented with the exact string "[Campaign Log Entry]", always followed by a number (possibly containing a decimal).
 
 	Alert the user to any ambiguities not specified by the guide/template/schema.
 

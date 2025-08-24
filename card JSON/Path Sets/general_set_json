@@ -18,7 +18,7 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Evade [2] the violently swirling columns of air to discard 1 strength for every 2 effort. If there is no strength on this feature, discard it."
+        "text": "AWA + [conflict]: Evade [2] the violently swirling columns of air to discard 1 strength for every 2 effort. If there is no strength on this feature, discard it."
       },
       {
         "kind": "challenge",
@@ -51,7 +51,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 90"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 90"
       },
       {
         "kind": "challenge",
@@ -61,7 +61,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active prey, exhaust it. »» Add [symbol] to this being equal to that prey's presence."
+        "text": "If there is an active prey, exhaust it. »» Add [harm] to this being equal to that prey's presence."
       }
     ],
     "campaign_log_entry": "90"
@@ -75,7 +75,7 @@
     ],
     "presence": 0,
     "harm_threshold": 1,
-    "progress_threshold": -1,
+    "progress_threshold": "Ranger Token",
     "enters_play": "along_the_way",
     "enters_play_with": {
       "type": null,
@@ -85,22 +85,22 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: After a human with your [symbol] is cleared, move your [symbol] to this feature. Read [book] 67 instead of that human's standard entry."
+        "text": "Response: After a human with your [Ranger Token] is cleared, move your [Ranger Token] to this feature. Read [Campaign Log Entry] 67 instead of that human's standard entry."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: Remove all [symbol] and all [symbol] from humans."
+        "text": "Clear [harm]: Remove all [Ranger Tokens] and all [progress] from humans."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: [book] 67.1"
+        "text": "Clear [Ranger Tokens]: [Campaign Log Entry] 67.1"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "Each Ranger whose [symbol] is on a human must move their [symbol] to another human with no [symbol] and that human within reach of themselves."
+        "text": "Each Ranger whose [Ranger Token] is on a human must move their [Ranger Token] to another human with no [Ranger Token] and that human within reach of themselves."
       }
     ]
   },
@@ -164,12 +164,12 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: The polyp bursts open! Search the General set for 2 Reclaimer Grubs."
+        "text": "Clear [harm]: The polyp bursts open! Search the General set for 2 Reclaimer Grubs."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "Add 1[symbol] to this feature."
+        "text": "Add 1[harm] to this feature."
       }
     ]
   },
@@ -209,7 +209,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, discard it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, discard it. »» Add [harm] to this being equal to that predator's presence."
       }
     ]
   },
@@ -232,7 +232,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: When this card enters play or its attached card leaves play without being cleared, attach it to the feature or being from the path deck with the highest presence that doesn't already have a Flood attached. Move that card along the way. If there are no cards to attach to: [book] 1.06"
+        "text": "Response: When this card enters play or its attached card leaves play without being cleared, attach it to the feature or being from the path deck with the highest presence that doesn't already have a Flood attached. Move that card along the way. If there are no cards to attach to: [Campaign Log Entry] 1.06"
       },
       {
         "kind": "challenge",
@@ -265,12 +265,12 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: When there is no damage on this feature: [book] 95"
+        "text": "Response: When there is no damage on this feature: [Campaign Log Entry] 95"
       },
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FIT + [symbol]: Repair [2] the damage caused by the raging waters to discard 1 damage."
+        "text": "FIT + [reason]: Repair [2] the damage caused by the raging waters to discard 1 damage."
       }
     ]
   },
@@ -298,7 +298,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: If this feature is within reach of a Ranger, that Ranger suffers 2 injuries. If it is along the way, remove all [symbol] from the location."
+        "text": "Clear [harm]: If this feature is within reach of a Ranger, that Ranger suffers 2 injuries. If it is along the way, remove all [progress] from the location."
       },
       {
         "kind": "challenge",
@@ -308,7 +308,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "Add 1[symbol] to this feature."
+        "text": "Add 1[harm] to this feature."
       }
     ]
   }

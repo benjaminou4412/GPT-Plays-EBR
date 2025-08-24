@@ -53,22 +53,22 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Ask Quisi about her adventures in the Valley to add [symbol] to this being equal to your effort. Then exhaust this being. [book] 80.4"
+        "text": "FOC + [connection]: Ask Quisi about her adventures in the Valley to add [progress] to this being equal to your effort. Then exhaust this being. [Campaign Log Entry] 80.4"
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 80"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 80"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "Discard either 1[symbol] or 1 token from a flora, insect, or gear."
+        "text": "Discard either 1[progress] or 1 token from a flora, insect, or gear."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
       }
     ],
     "campaign_log_entry": "80"
@@ -98,17 +98,17 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 83"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 83"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "Add 1[symbol] to the location as Ren shares his usual routes with you."
+        "text": "Add 1[progress] to the location as Ren shares his usual routes with you."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
       }
     ],
     "campaign_log_entry": "83"
@@ -138,17 +138,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Pose [2] heroically to add 4[symbol] to this being. If you fail, suffer 1 fatigue as you pull something."
+        "text": "SPI + [reason]: Pose [2] heroically to add 4[progress] to this being. If you fail, suffer 1 fatigue as you pull something."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 82"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 82"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to thatpredator's presence."
       }
     ],
     "campaign_log_entry": "82"
@@ -172,12 +172,12 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Search [2] the cache for useful gear to move your [symbol] to this feature. Then you may search your deck for a gear and equip it. If you fail, move your [symbol] to this feature and you may add 1 token to one of your equipped gear."
+        "text": "AWA + [exploration]: Search [2] the cache for useful gear to move your [ranger token] to this feature. Then you may search your deck for a gear and equip it. If you fail, move your [ranger token] to this feature and you may add 1 token to one of your equipped gear."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: Each Ranger shuffles 2 cards from their Ranger discard into their deck."
+        "text": "Clear [Ranger Token]: Each Ranger shuffles 2 cards from their Ranger discard into their deck."
       }
     ],
     "campaign_log_entry": "79"
@@ -201,17 +201,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Explore [2] the labyrinthine underground structure to move your [symbol] to this feature."
+        "text": "AWA + [exploration]: Explore [2] the labyrinthine underground structure to move your [Ranger Token] to this feature."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: If a [symbol] is on this feature. Delve deeper into the arcology. [book] 78"
+        "text": "Clear [progress]: If a [Ranger Token] is on this feature. Delve deeper into the arcology. [Campaign Log Entry] 78"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "The sinkhole widens. Discard 1[symbol] from a feature. If you cannot, this card fatigues you."
+        "text": "The sinkhole widens. Discard 1[progress] from a feature. If you cannot, this card fatigues you."
       }
     ],
     "campaign_log_entry": "78"
@@ -241,17 +241,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Ask [3] Oura who she has encountered during her travels to search the Valley set for a human and shuffle them into the path deck."
+        "text": "FOC + [exploration]: Ask [3] Oura who she has encountered during her travels to search the Valley set for a human and shuffle them into the path deck."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 81"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 81"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to thatpredator's presence."
       }
     ],
     "campaign_log_entry": "81"
@@ -284,17 +284,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Convince [3] Ben of the urgency of your mission to move your [symbol] to this being."
+        "text": "FOC + [connection]: Convince [3] Ben of the urgency of your mission to move your [Ranger Token] to this being."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 87"
+        "text": "Clear [Ranger Token] or [harm]: [Campaign Log Entry] 87"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to thatpredator's presence."
       }
     ],
     "campaign_log_entry": "87"
@@ -324,7 +324,7 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Scare [3] off the massive raptor to place this being on top of the path deck. If you fail, suffer 1 injury."
+        "text": "SPI + [conflict]: Scare [3] off the massive raptor to place this being on top of the path deck. If you fail, suffer 1 injury."
       },
       {
         "kind": "challenge",
@@ -364,7 +364,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If there is another active predator, Quiet defends her hunting ground. »» Add 3[symbol] to that predator and 1[symbol] to this being."
+        "text": "If there is another active predator, Quiet defends her hunting ground. »» Add 3[harm] to that predator and 1[harm] to this being."
       },
       {
         "kind": "challenge",
@@ -399,12 +399,12 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: After this being is exhausted by a prey's [symbol] challenge effect, ready this being. Then add 2[symbol] to it."
+        "text": "Response: After this being is exhausted by a prey's [Mountain] challenge effect, ready this being. Then add 2[progress] to it."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "Add 3[symbol] to the active feature with the lowest presence. If that feature is food, add 1[symbol] to this being."
+        "text": "Add 3[harm] to the active feature with the lowest presence. If that feature is food, add 1[progress] to this being."
       },
       {
         "kind": "challenge",
@@ -439,12 +439,12 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Prevent [2] Tala from intimidating the wildlife to exhaust this being."
+        "text": "SPI + [conflict]: Prevent [2] Tala from intimidating the wildlife to exhaust this being."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 84"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 84"
       },
       {
         "kind": "challenge",
@@ -454,7 +454,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to thatpredator's presence."
       }
     ],
     "campaign_log_entry": "84"
@@ -484,17 +484,17 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 85"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 85"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "Add 1[symbol] to a path card as Calypsa lends you a hand."
+        "text": "Add 1[progress] to a path card as Calypsa lends you a hand."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to thatpredator's presence."
       }
     ],
     "campaign_log_entry": "85"
@@ -529,17 +529,17 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol] or [symbol]: [book] 86"
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 86"
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If this being has 1 or more [symbol], he chews on an herb harvested from his backpack. »» Remove 1[symbol] from this being."
+        "text": "If this being has 1 or more [harm], he chews on an herb harvested from his backpack. »» Remove 1[harm] from this being."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
       }
     ],
     "campaign_log_entry": "86"
