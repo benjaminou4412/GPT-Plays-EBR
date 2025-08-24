@@ -191,10 +191,16 @@ END OF THE DAY — HOW A DAY ENDS
 - A rule instructs you to end the day (e.g., mission text, campaign entry, or specific card effects). The most common version of this is if a Human from the path deck is cleared by harm.
 - Group may also choose to end the day as allowed by campaign rules (e.g., camping at a new location).
 
+
 SAVING/CONTINUING BETWEEN SESSIONS (CAMPAIGN)
 - Use the campaign tracker to record: current location, terrain traveled, uncompleted missions, and today’s weather side. Keep unlocked rewards separate from the general collection.
 - Between-day deck updates: swapping in/out unlocked rewards follows the rulebook/campaign guide.
 - Travel/build-path references for the next session come from the tracker entries.
+
+MISSIONS
+- By default, when you're instructed to a gain a mission, that mission is recorded in the campaign log. As such, missions persist between days, representing your long-term goals.
+- Some missions, particularly "Helping Hand", explicitly instruct you to not record them. As such, these missions are limited-time opportunities, and will expire at the end of the day.
+- While missions provide you goals to pursue, they are not explicitly "required", even the ones with the Story trait that represent the campaign's main story. However, ignoring your missions will have consequences, potentially both mechanically and for the story of your Ranger.
 
 LLM PLAY PROTOCOL (HOW TO DRIVE THE GAME AS AN LLM)
 1) Maintain state explicitly: zones, each card with (area, ready/exhausted, presence, thresholds, tokens), each Ranger’s (hand, deck size, discard size, fatigue stack size, energy pool by aspect, injuries, role ready/exhausted, ranger token location).

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "mission-001-journey",
+    "title": "Journey",
+    "card_type": "Mission",
+    "traits": [
+      "Interlude"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You have to venture to a different location for the next step in your journey.",
+    "mission_locations": [],
+    "mission_objective": "Arrive at the attached location: [Campaign Log Entry] 1.50",
+    "rules": []
+  },
+  {
+    "id": "mission-002-helping-hand",
+    "title": "Helping Hand",
+    "card_type": "Mission",
+    "traits": [
+      "Side"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You have agreed to help this person with a task around the Valley.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Do not add this mission to the campaign tracker. If you do not help this person before the end of the day, the opportunity is lost for now."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "The attached being gains Persistent."
+      }
+    ]
+  },
+  {
+    "id": "mission-003-biscuit-delivery",
+    "title": "Biscuit Delivery",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Continuing a time-honored Ranger tradition, Calypsa has tasked you with delivering biscuits to the people of White Sky as your first mission. Find Hy Pimpot at Lone Tree Station. He'll give you the biscuits and send you on your way.",
+    "mission_locations": [],
+    "mission_objective": "Travel away from Lone Tree Station while Hy Pimpot is in play: [Campaign Log Entry] 1.01",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "During this mission, use [Campaign Log Entry] 91 instead of the normal entries for Hy Pimpot, Kordo, Nal, and Quisi Vos."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If Quisi Vos is not in the path discard, she is drawn by baked goods. »» Search the Valley set for Quisi and put her into play."
+      }
+    ]
+  },
+  {
+    "id": "mission-004-accommodation",
+    "title": "Accommodation",
+    "card_type": "Mission",
+    "traits": [],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You've agreed to help Spirit Speaker Nal investigate the Caustic Mulcher's purpose in the ecosystem. Explore the woodlands of the Valley, where Caustic Mulchers can be found.",
+    "mission_locations": [],
+    "mission_objective": "Have all [Ranger Tokens] on this card: [Campaign Log Entry] 1.40",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a [Ranger Token] is removed from a Caustic Mulcher, place it on this card. It cannot be moved from here by the Mulcher's effects."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "At any point, the group can choose to change their mind and help Kordo instead. If they do, remove all [Ranger Tokens] from this card and flip it into Intervention. Replace Accommodation with Intervention on the campaign tracker."
+      }
+    ]
+  },
+  {
+    "id": "mission-005-rising-waters",
+    "title": "Rising Waters",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Torrential rains are causing floods.",
+    "mission_locations": [
+      "White Sky",
+      "Kobo's Market",
+      "Golden Shore"
+    ],
+    "mission_objective": "Have 3[progress] on this mission: [Campaign Log Entry] 1.07",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use [Campaign Log Entry] 1.05 instead of the normal entries for these locations."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a card with a Flood attached is cleared, place 1[progress] on this mission and shuffle the Flood into the path deck."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1 token to the weather."
+      }
+    ]
+  },
+  {
+    "id": "mission2-001-sensor-network",
+    "title": "Sensor Network",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Deploy sensors to try to detect Reclaimers.",
+    "mission_locations": [
+      "The Plummet",
+      "High Basin",
+      "Mound of the Navigator"
+    ],
+    "mission_objective": "Have 3[symbol] on this mission: [Campaign Log Entry] 1.09",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a feature comes into play at one of these locations, you may attach this mission to it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a feature with this mission attached is cleared, place 1[progress] on this mission."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this mission is attached, exhaust a non-human being. »» Unattach this mission unless a ranger spends 1 FOC energy."
+      }
+    ]
+  },
+  {
+    "id": "mission2-002-trail-of-vines",
+    "title": "Trail of Vines",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "You might be able to track the mysterious Verdessian through its effects on local flora.",
+    "mission_locations": [],
+    "mission_objective": "Have 2R or more vine tokens on this card: [Campaign Log Entry] 1.11",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a flora comes into play, place 1 vine token on it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a card with vine tokens on it is cleared, move those tokens here."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "It must have come this way. Move 1 vine token from a flora to another flora."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "A residual energy causes the plant to grow rapidly. Add 1 vine token to a flora."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Did those plants just... nip at you?! Each ranger suffers fatigue equal to the number of vine tokens within reach."
+      }
+    ]
+  },
+  {
+    "id": "mission2-003-find-the-nest",
+    "title": "Find the Nest",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "To study the Reclaimers you will first have to track one of the creatures back to their nest. Since you can't keep up with them on foot, you will have to tag them with sap and let Gus the mole sniff out the trail for you.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Affix [2] a tracking sap to a Reclaimer to attach this mission card to a Reclaimer Seeker in play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Discard an active Reclaimer Seeker. If this mission is attached to it, Gus follows the tagged creature. »» [Campaign Log Entry] 1.15"
+      }
+    ]
+  },
+  {
+    "id": "mission2-004-remove-the-reclaimers",
+    "title": "Remove the Reclaimers",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Search the Valley for options on how to deal with the mounting reclaimer invasion before it overwhelms the Valley.",
+    "mission_locations": [],
+    "mission_objective": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "There are three different options to discover. Talk with people around the Valley who you think might have ideas for how to find them."
+      }
+    ]
+  },
+  {
+    "id": "mission2-005-lost-brother",
+    "title": "Lost Brother",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Aell fled into the southern swamps. If you can find him, perhaps you can get him to create another flood.",
+    "mission_locations": [
+      "Marsh of Rebirth"
+    ],
+    "mission_objective": "Use [Campaign Log Entry] 1.19 instead of the normal entries for Aell, Ambitious Shaper.",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Find a way to travel to the Marsh of Rebirth and locate Aell."
+      }
+    ]
+  },
+  {
+    "id": "mission2-006-worm-food",
+    "title": "Worm Food",
+    "card_type": "Mission",
+    "traits": [
+      "Story"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "description": "Set up lures around the swamp.",
+    "mission_locations": [
+      "The Greenbridge",
+      "Frowning Gate"
+    ],
+    "mission_objective": "Have 2[progress] on this mission: [Campaign Log Entry] 1.24",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When a feature comes into play at one of these locations, you may attach this mission to it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When feature with this mission attached is cleared, add 1[symbol] to this mission."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this mission is attached, exhaust a non-human being. »» Unattach this mission unless a ranger spends 1 FOC energy."
+      }
+    ]
+  }
+]
