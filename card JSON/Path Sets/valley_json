@@ -256,4 +256,292 @@
     ],
     "campaign_log_entry": "81"
   }
+
+
+
+  {
+    "id": "valley-011-ben-amon-swift-pilot",
+    "title": "Ben Amon, Swift Pilot",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Ranger"
+    ],
+    "presence": 1,
+    "harm_threshold": 4,
+    "progress_threshold": "Ranger Token",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Convince [3] Ben of the urgency of your mission to move your [symbol] to this being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 87"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "87"
+  },
+  {
+    "id": "valley-012-umbra",
+    "title": "Umbra",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Avian"
+    ],
+    "presence": 3,
+    "harm_threshold": "4R",
+    "progress_threshold": "6R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Persistent."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Scare [3] off the massive raptor to place this being on top of the path deck. If you fail, suffer 1 injury."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If this being is along the way, move it within reach. »» It fatigues you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this being is within reach, exhaust it. »» Suffer 1 injury."
+      }
+    ],
+    "campaign_log_entry": "89"
+  },
+  {
+    "id": "valley-013-quiet",
+    "title": "Quiet",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Mammal"
+    ],
+    "presence": 3,
+    "harm_threshold": "5R",
+    "progress_threshold": "5R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Ambush."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is another active predator, Quiet defends her hunting ground. »» Add 3[symbol] to that predator and 1[symbol] to this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Suffer 1 injury."
+      }
+    ],
+    "campaign_log_entry": "52"
+  },
+  {
+    "id": "valley-014-ol-bloody-clicker",
+    "title": "Ol' Bloody Clicker",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Biomeld"
+    ],
+    "presence": 3,
+    "harm_threshold": "6R",
+    "progress_threshold": "3R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Disconnected."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After this being is exhausted by a prey's [symbol] challenge effect, ready this being. Then add 2[symbol] to it."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Add 3[symbol] to the active feature with the lowest presence. If that feature is food, add 1[symbol] to this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Suffer 1 injury."
+      }
+    ],
+    "campaign_log_entry": "71"
+  },
+  {
+    "id": "valley-008-tala-the-red-exile",
+    "title": "Tala the Red, Exile",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Exile"
+    ],
+    "presence": 2,
+    "harm_threshold": 5,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Prevent [2] Tala from intimidating the wildlife to exhaust this being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 84"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "The fauna flee before Tala the Red. Move a being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "84"
+  },
+  {
+    "id": "valley-009-calypsa-ranger-mentor",
+    "title": "Calypsa, Ranger Mentor",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Ranger"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 85"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1[symbol] to a path card as Calypsa lends you a hand."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "85"
+  },
+  {
+    "id": "valley-010-the-fundamentalist",
+    "title": "The Fundamentalist",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 2,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Reduce the presence of all other beings in the same area as the Fundamentalist by 1."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 86"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If this being has 1 or more [symbol], he chews on an herb harvested from his backpack. »» Remove 1[symbol] from this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "86"
+  }
 ]
