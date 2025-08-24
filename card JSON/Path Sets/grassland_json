@@ -1,0 +1,222 @@
+[
+  {
+    "id": "grassland-002-bloodbeckoned-velox",
+    "title": "Bloodbeckoned Velox",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Mammal"
+    ],
+    "presence": 2,
+    "harm_threshold": 3,
+    "progress_threshold": 7,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Ambush."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "If a Ranger is injured, this being gains disconnected."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is no active prey and the Whispering Fields is in play, the velox bolts. »» Attach this being facedown to it."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If a Ranger is injured, exhaust this being. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "grassland-003-artilope",
+    "title": "Artilope",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": 5,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is an active card with 2 or more presence, shuffle this being into the path deck. »» Draw 1 path card."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is 1 or more [harm] on this being, exhaust each ready Artilope. »» Add 1[harm] to each being, and each Ranger suffers 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "grassland-007-hungry-scrof",
+    "title": "Hungry Scrof",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 6,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you interact with this being, you may discard 1 token from an equipped food to commit 1 effort."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is another active predator, exhaust it. »» Add 2[harm] to it and add 2[harm] to this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active food, or you have food equipped, exhaust this being. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "grassland-008-mourning-root",
+    "title": "Mourning Root",
+    "card_type": "Feature",
+    "traits": [
+      "Flora",
+      "Food"
+    ],
+    "presence": 0,
+    "harm_threshold": 2,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [reason]: Slice and share the tear-inducing vegetable to add 1[harm] to this feature, suffer 1 fatigue, and choose a Ranger. That Ranger soothes 3 fatigue."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active prey, exhaust it. »» Add [progress] to it and [harm] to this feature, both equal to that prey's presence."
+      }
+    ]
+  },
+  {
+    "id": "grassland-010-harvester-anthill",
+    "title": "Harvester Anthill",
+    "card_type": "Feature",
+    "traits": [
+      "Food",
+      "Obstacle"
+    ],
+    "presence": "X",
+    "harm_threshold": 4,
+    "progress_threshold": 6,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of [harm] on this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is 1 or more [progress] on this feature, the ground sinks under your feet. »» Discard 1[progress] from and add 1[harm] to this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active Hungry Scrof, exhaust it. »» Add [progress] to it and [harm] to this feature, both equal to the Scrof's presence."
+      }
+    ]
+  },
+  {
+    "id": "grassland-012-the-whispering-fields",
+    "title": "The Whispering Fields",
+    "card_type": "Feature",
+    "traits": [
+      "Flora",
+      "Trail"
+    ],
+    "presence": "X",
+    "harm_threshold": 6,
+    "progress_threshold": -1,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you would draw a path card, instead attach it facedown to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When this feature enters play, draw a path card."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to twice the number of facedown cards attached to this feature."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Sense the movement in the tall grass to choose a number of attached facedown cards at random equal to your effort and look at them. Choose 1 to put into play. If it has the ambush keyword, treat it as if it does not."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Put a random attached facedown card into play. »» If it has the ambush keyword, suffer 1 injury instead of the fatigue."
+      }
+    ]
+  }
+]
