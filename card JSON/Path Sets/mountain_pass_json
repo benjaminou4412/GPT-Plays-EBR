@@ -24,7 +24,7 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Scare [2] off the loitering carrion-eater to place this being on top of the path deck. If you fail, suffer 1 injury."
+        "text": "SPI + [conflict]: Scare [2] off the loitering carrion-eater to place this being on top of the path deck. If you fail, suffer 1 injury."
       },
       {
         "kind": "challenge",
@@ -63,7 +63,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If there is another active predator, the atrox pounces. »» Add 2[symbol] to that predator and 1[symbol] to this being."
+        "text": "If there is another active predator, the atrox pounces. »» Add 2[harm] to that predator and 1[harm] to this being."
       },
       {
         "kind": "challenge",
@@ -92,17 +92,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Listen for the meadowlark's song of warning to move your [symbol] to this being."
+        "text": "SPI + [connection]: Listen for the meadowlark's song of warning to move your [Ranger Token] to this being."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: Before a being moves or enters play within reach, you may remove your [symbol] from this prey to exhaust that being."
+        "text": "Response: Before a being moves or enters play within reach, you may remove your [Ranger Token] from this prey to exhaust that being."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
       }
     ]
   },
@@ -125,17 +125,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Watch [2] for opportunistic carnivores to move your [symbol] to this feature."
+        "text": "AWA + [connection]: Watch [2] for opportunistic carnivores to move your [Ranger Token] to this feature."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If your [symbol] is not on this feature, exhaust this feature. »» Search the path deck for the next predator and put it into play."
+        "text": "If your [Ranger Token] is not on this feature, exhaust this feature. »» Search the path deck for the next predator and put it into play."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this feature equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this feature equal to that predator's presence."
       }
     ]
   },
@@ -165,12 +165,12 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Break [2] the bladed coils to add 1[symbol] to this feature for every 2 effort. If you fail, suffer 1 injury."
+        "text": "FOC + [conflict]: Break [2] the bladed coils to add 1[harm] to this feature for every 2 effort. If you fail, suffer 1 injury."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "Add 1[symbol] to each being within reach."
+        "text": "Add 1[harm] to each being within reach."
       }
     ]
   },
@@ -200,7 +200,7 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Scramble [2] up the slope of shifting rocks to add 3[symbol] to this feature for every 2 effort. If you fail, resolve its [symbol] challenge effect."
+        "text": "AWA + [exploration]: Scramble [2] up the slope of shifting rocks to add 3[progress] to this feature for every 2 effort. If you fail, resolve its [Mountain] challenge effect."
       },
       {
         "kind": "challenge",
@@ -233,17 +233,17 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "During your turn, if your [symbol] is on this feature, you may treat obstacles as if they did not have the obstacle keyword."
+        "text": "During your turn, if your [Ranger Token] is on this feature, you may treat obstacles as if they did not have the obstacle keyword."
       },
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Brace [3] yourself for the ride to move your [symbol] to this feature."
+        "text": "SPI + [reason]: Brace [3] yourself for the ride to move your [Ranger Token] to this feature."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: When you travel, if all [symbol] are on this feature, you may travel to a location up to 2 paths away. Use the terrain of the second path when building the path deck."
+        "text": "Response: When you travel, if all [Ranger Tokens] are on this feature, you may travel to a location up to 2 paths away. Use the terrain of the second path when building the path deck."
       }
     ]
   }
