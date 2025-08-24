@@ -27,12 +27,22 @@
       "description": "Value in the purple diamond at top-right. Use integer or the literal string 'X' if shown."
     },
     "harm_threshold": {
-      "oneOf": [{ "type": "integer", "minimum": 0 }, { "const": "X" }],
-      "description": "Number in the red square at lower left of the thresholds pair. Use integer or 'X'."
+      "oneOf": [
+        { "type": "integer", "minimum": -2 },
+        { "const": "X" },
+        { "type": "string", "pattern": "^[0-9]+[R]$" }
+	{ "const": "Ranger Token"}
+      ],
+      "description": "Number and/or letter in the red square of the thresholds pair at the lower right. Allow integers, 'X', or digit+letter suffix like '2R', or the string "Ranger Token"."
     },
     "progress_threshold": {
-      "oneOf": [{ "type": "integer", "minimum": 0 }, { "const": "X" }],
-      "description": "Number in the blue square at lower right of the thresholds pair. Use integer or 'X'."
+      "oneOf": [
+        { "type": "integer", "minimum": -2 },
+        { "const": "X" },
+        { "type": "string", "pattern": "^[0-9]+[R]$" }
+	{ "const": "Ranger Token"}
+      ],
+      "description": "Number and/or letter in the blue square of the thresholds pair at the lower right.  Allow integers, 'X', digit+letter suffix like '2R', or the string "Ranger Token"."
     },
     "enters_play": {
       "type": "string",

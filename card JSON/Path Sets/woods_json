@@ -1,0 +1,210 @@
+[
+  {
+    "id": "woods-003-prowling-wolhund",
+    "title": "Prowling Wolhund",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Mammal"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 6,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "If there is another predator in play, this predator comes into play exhausted."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Ready another Prowling Wolhund."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If you have 3 or more fatigue, exhaust this being. » Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "woods-004-sitka-buck",
+    "title": "Sitka Buck",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": 5,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is another active Sitka Buck, exhaust this being. » Add 2[harm] to both this being and the other Sitka Buck."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is a predator, exhaust it. » Add 2[harm] to it, then add [harm] to this being equal to that predator's presence."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active Sitka Doe, the buck charges. » Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "woods-007-sitka-doe",
+    "title": "Sitka Doe",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 1,
+    "harm_threshold": 2,
+    "progress_threshold": 4,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [conflict]: Shoo away the skittish grazer to move this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there are 1 or more Sitka Bucks in play, they're drawn to the doe. » Move each Sitka Buck within reach."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. » Add [harm] to this being equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "woods-008-caustic-mulcher",
+    "title": "Caustic Mulcher",
+    "card_type": "Being",
+    "traits": [
+      "Biomeld"
+    ],
+    "presence": 3,
+    "harm_threshold": 6,
+    "progress_threshold": 9,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Beings attached to this being do not ready."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "If a [Ranger Token] is on this biomeld, you cannot travel and [Ranger Tokens] on this biomeld cannot be moved except by this test:"
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict]: Wrest [2] them free of the mulcher's grasp to exhaust this biomeld, then remove a [Ranger Token] or unattach a being from it. If you unattach a being, place it in the same area as this biomeld."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is another active being, exhaust it and attach it to this biomeld. If not, move your [Ranger Token] to this biomeld."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Add 1[harm] to each being attached to this biomeld. Each Ranger with their [Ranger Token] on this biomeld suffers 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "woods-009-sunberry-bramble",
+    "title": "Sunberry Bramble",
+    "card_type": "Feature",
+    "traits": [
+      "Flora",
+      "Food"
+    ],
+    "presence": 1,
+    "harm_threshold": 2,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Pluck [2] the thorn-ringed fruit to add 1[harm] to this feature and soothe 2 fatigue. If you fail, this feature fatigues you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active prey, exhaust it. » Add [progress] to it and [harm] to this feature, both equal to that prey's presence."
+      }
+    ]
+  },
+  {
+    "id": "woods-011-overgrown-thicket",
+    "title": "Overgrown Thicket",
+    "card_type": "Feature",
+    "traits": [
+      "Flora",
+      "Obstacle"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "2R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [exploration]: Hunt for a way through the dense foliage to add [progress] to this feature equal to your effort."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Discard 1[progress] from this feature. » It fatigues you."
+      }
+    ]
+  }
+]

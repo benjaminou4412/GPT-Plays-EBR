@@ -1,0 +1,250 @@
+[
+  {
+    "id": "mountain-pass-001-circling-irix",
+    "title": "Circling Irix",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Avian"
+    ],
+    "presence": 2,
+    "harm_threshold": 3,
+    "progress_threshold": 7,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Persistent."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Scare [2] off the loitering carrion-eater to place this being on top of the path deck. If you fail, suffer 1 injury."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If this being is along the way, move it within reach. »» It fatigues you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this being is within reach, and you have 3 or more fatigue, exhaust it. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-004-pouncing-atrox",
+    "title": "Pouncing Atrox",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Mammal"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 6,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Ambush."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is another active predator, the atrox pounces. »» Add 2[symbol] to that predator and 1[symbol] to this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If you have 2 or more fatigue, exhaust this being. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-006-agitated-meadowlarks",
+    "title": "Agitated Meadowlarks",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Avian"
+    ],
+    "presence": 1,
+    "harm_threshold": 1,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Listen for the meadowlark's song of warning to move your [symbol] to this being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: Before a being moves or enters play within reach, you may remove your [symbol] from this prey to exhaust that being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-007-fresh-sitka-carcass",
+    "title": "Fresh Sitka Carcass",
+    "card_type": "Feature",
+    "traits": [
+      "Prey"
+    ],
+    "presence": 3,
+    "harm_threshold": 3,
+    "progress_threshold": "Ranger Token",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [symbol]: Watch [2] for opportunistic carnivores to move your [symbol] to this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If your [symbol] is not on this feature, exhaust this feature. »» Search the path deck for the next predator and put it into play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this feature equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-008-fractalwire",
+    "title": "Fractalwire",
+    "card_type": "Feature",
+    "traits": [
+      "Hazard",
+      "Flora",
+      "Obstacle"
+    ],
+    "presence": 2,
+    "harm_threshold": 2,
+    "progress_threshold": 6,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Break [2] the bladed coils to add 1[symbol] to this feature for every 2 effort. If you fail, suffer 1 injury."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1[symbol] to each being within reach."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-011-shale-scree",
+    "title": "Shale Scree",
+    "card_type": "Feature",
+    "traits": [
+      "Hazard",
+      "Ascent",
+      "Obstacle"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": 6,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [symbol]: Scramble [2] up the slope of shifting rocks to add 3[symbol] to this feature for every 2 effort. If you fail, resolve its [symbol] challenge effect."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Move this card within reach. »» It fatigues you. Move each being that is within reach to another area."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this feature is within reach, shuffle it into the path deck. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "mountain-pass-012-spiderline-stanchion",
+    "title": "Spiderline Stanchion",
+    "card_type": "Feature",
+    "traits": [
+      "Structure"
+    ],
+    "presence": 0,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "During your turn, if your [symbol] is on this feature, you may treat obstacles as if they did not have the obstacle keyword."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Brace [3] yourself for the ride to move your [symbol] to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you travel, if all [symbol] are on this feature, you may travel to a location up to 2 paths away. Use the terrain of the second path when building the path deck."
+      }
+    ]
+  }
+]

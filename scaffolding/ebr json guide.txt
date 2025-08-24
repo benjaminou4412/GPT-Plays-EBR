@@ -1,3 +1,12 @@
+General rules:
+
+	If rules text contains an unrecognized symbol, just drop in "[symbol]" as a placeholder.
+
+	Alert the user to any ambiguities not specified by the guide/template/schema.
+
+	In general, try to copy text exactly. Don't infer or guess.
+
+
 Field-by-field extraction guide (from the card image)
 
 title
@@ -22,15 +31,21 @@ harm_threshold and progress_threshold
 
 	Location: the paired squares near the bottom-right of the art/rules area. Red on the left (harm), blue on the right (progress).
 
-	Copy each number exactly; use "X" if the square shows X.
+	Copy each number exactly; use "X" if the square shows X. If the square shows a number followed by a letter, like "2R", record it exactly.
+
+	One or both thresholds may be missing. In this case, record as "-1".
+
+	One or both thresholds may show a diagonal slash. In this case, record as "-2".
+
+	One or both thresholds may show a special symbol not covered by the above cases; it resembles a diamond. In this case, record as "Ranger Token".
 
 enters_play
 
-	Location: tiny arrow under the set icon at top-left.
+	Location: tiny triangle under the set icon at top-left.
 
-	Upward arrow → "along_the_way".
+	Upwards triangle (point facing up) → "along_the_way".
 
-	Downward arrow → "within_reach".
+	Inverted triangle (point facing down) → "within_reach".
 
 enters_play_with
 
