@@ -59,7 +59,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active Web Wall, the bats become entangled in it. »» Add 1[symbol] to this swarm."
+        "text": "If there is an active Web Wall, the bats become entangled in it. »» Add 1[harm] to this swarm."
       }
     ]
   },
@@ -83,12 +83,12 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Pluck the fragile leaves and chew them, careful not to swallow to add 1[symbol] to this feature, soothe 1 fatigue, and draw 1 Ranger card."
+        "text": "AWA + [reason]: Pluck the fragile leaves and chew them, careful not to swallow to add 1[harm] to this feature, soothe 1 fatigue, and draw 1 Ranger card."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active prey, exhaust it. »» Add [symbol] to it and [symbol] to this feature equal to that prey's presence."
+        "text": "If there is an active prey, exhaust it. »» Add [progress] to it and [harm] to this feature equal to that prey's presence."
       }
     ]
   },
@@ -118,22 +118,22 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Inch [2] your way along precariously balanced rocks to move your [symbol] to this feature. Then move this feature within reach of another Ranger."
+        "text": "FOC + [exploration]: Inch [2] your way along precariously balanced rocks to move your [Ranger Token] to this feature. Then move this feature within reach of another Ranger."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: If this feature is within reach of a Ranger, that Ranger suffers 2 injuries."
+        "text": "Clear [harm]: If this feature is within reach of a Ranger, that Ranger suffers 2 injuries."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If the weather is inclement, the rocks begin to shift. »» Add 1[symbol] to this feature."
+        "text": "If the weather is inclement, the rocks begin to shift. »» Add 1[harm] to this feature."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "Add 1[symbol] to this feature."
+        "text": "Add 1[harm] to this feature."
       }
     ]
   },
@@ -162,17 +162,17 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "While your [symbol] is on this feature your [symbol] cannot be moved and [symbol] cannot be added to this feature."
+        "text": "While your [Ranger Token] is on this feature your [Ranger Token] cannot be moved and [Progress] cannot be added to this feature."
       },
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FIT + [symbol]: Pull [2] apart the cloying webs to add 1[symbol] to this feature for every 2 effort. If you fail, move your [symbol] to this feature."
+        "text": "FIT + [conflict]: Pull [2] apart the cloying webs to add 1[harm] to this feature for every 2 effort. If you fail, move your [Ranger Token] to this feature."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "crest",
-        "text": "Move your [symbol] to this feature. »» Move this feature within reach."
+        "text": "Move your [Ranger Token] to this feature. »» Move this feature within reach."
       }
     ]
   },
@@ -197,22 +197,22 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "While your [symbol] is on this feature, it cannot fatigue you."
+        "text": "While your [Ranger Token] is on this feature, it cannot fatigue you."
       },
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Brave [2] the unstable bridge as the ropes groan beneath your feet to move your [symbol] to this feature."
+        "text": "SPI + [reason]: Brave [2] the unstable bridge as the ropes groan beneath your feet to move your [Ranger Token] to this feature."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: Discard all [symbol] from the location. Each Ranger with their [symbol] on this feature suffers 1 injury."
+        "text": "Clear [harm]: Discard all [progress] from the location. Each Ranger with their [Ranger Token] on this feature suffers 1 injury."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "Add 1[symbol] to this feature."
+        "text": "Add 1[harm] to this feature."
       }
     ]
   },
@@ -235,12 +235,12 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "While your [symbol] is on this feature, you do not suffer fatigue from weather."
+        "text": "While your [Ranger Token] is on this feature, you do not suffer fatigue from weather."
       },
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Shelter [2] in the dark recess to exhaust this feature and move your [symbol] to it."
+        "text": "AWA + [Exploration]: Shelter [2] in the dark recess to exhaust this feature and move your [Ranger Token] to it."
       },
       {
         "kind": "challenge",

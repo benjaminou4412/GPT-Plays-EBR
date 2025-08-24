@@ -1,0 +1,259 @@
+[
+  {
+    "id": "valley-001-the-tenebrae",
+    "title": "The Tenebrae",
+    "card_type": "Feature",
+    "traits": [
+      "Biomeld"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you perform a test that interacts with a card in the same area as this feature, reduce your effort by 1."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Move this feature."
+      }
+    ],
+    "campaign_log_entry": "88"
+  },
+  {
+    "id": "valley-002-quisi-vos-rascal",
+    "title": "Quisi Vos, Rascal",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Fatiguing. Friendly. Persistent."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Ask Quisi about her adventures in the Valley to add [symbol] to this being equal to your effort. Then exhaust this being. [book] 80.4"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 80"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Discard either 1[symbol] or 1 token from a flora, insect, or gear."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "80"
+  },
+  {
+    "id": "valley-003-ren-kobo-merchant",
+    "title": "Ren Kobo, Merchant",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 4,
+    "progress_threshold": "4R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly. Persistent."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 83"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Add 1[symbol] to the location as Ren shares his usual routes with you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "83"
+  },
+  {
+    "id": "valley-004-sil-belai-artist",
+    "title": "Sil Belai, Artist",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 4,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Pose [2] heroically to add 4[symbol] to this being. If you fail, suffer 1 fatigue as you pull something."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 82"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "82"
+  },
+  {
+    "id": "valley-005-ranger-cache",
+    "title": "Ranger Cache",
+    "card_type": "Feature",
+    "traits": [
+      "Supply"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "Ranger Token",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [symbol]: Search [2] the cache for useful gear to move your [symbol] to this feature. Then you may search your deck for a gear and equip it. If you fail, move your [symbol] to this feature and you may add 1 token to one of your equipped gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: Each Ranger shuffles 2 cards from their Ranger discard into their deck."
+      }
+    ],
+    "campaign_log_entry": "79"
+  },
+  {
+    "id": "valley-006-arcology-sinkhole",
+    "title": "Arcology Sinkhole",
+    "card_type": "Feature",
+    "traits": [
+      "Ruin"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": "3R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [symbol]: Explore [2] the labyrinthine underground structure to move your [symbol] to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: If a [symbol] is on this feature. Delve deeper into the arcology. [book] 78"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "The sinkhole widens. Discard 1[symbol] from a feature. If you cannot, this card fatigues you."
+      }
+    ],
+    "campaign_log_entry": "78"
+  },
+  {
+    "id": "valley-007-oura-vos-traveler",
+    "title": "Oura Vos, Traveler",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Ask [3] Oura who she has encountered during her travels to search the Valley set for a human and shuffle them into the path deck."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol] or [symbol]: [book] 81"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "81"
+  }
+]
