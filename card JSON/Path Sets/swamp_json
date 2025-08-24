@@ -1,0 +1,263 @@
+[
+  {
+    "id": "swamp-004-hydraworm",
+    "title": "Hydraworm",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Biomeld"
+    ],
+    "presence": 2,
+    "harm_threshold": 5,
+    "progress_threshold": 9,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: You feel the swamp shudder. Add 1[symbol] to each other Hydraworm in play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If this being has 1 or more [symbol], the swamp churns. »» Search the path deck and discard for a Hydraworm and put it into play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is another Hydraworm in the same area as this one, they spread out. »» Move this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Exhaust this being. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "swamp-006-intrepid-marmot",
+    "title": "Intrepid Marmot",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Mammal"
+    ],
+    "presence": 1,
+    "harm_threshold": 2,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Discern [2] the movements of the courageous rodent to exhaust this being. Add 1[symbol] to it, and 2[symbol] to a feature, for every 2 effort."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there are no predators in play, exhaust this being. »» Draw a path card."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "swamp-007-fetid-bog",
+    "title": "Fetid Bog",
+    "card_type": "Feature",
+    "traits": [
+      "Flora",
+      "Water"
+    ],
+    "presence": "X",
+    "harm_threshold": 6,
+    "progress_threshold": 6,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After a being is cleared by [symbol], attach it facedown to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Discard 1 facedown card attached to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the twice the number of facedown cards attached to this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "You may exhaust your role. If you do not, this feature fatigues you."
+      }
+    ]
+  },
+  {
+    "id": "swamp-009-black-mud",
+    "title": "Black Mud",
+    "card_type": "Feature",
+    "traits": [
+      "Water",
+      "Trail",
+      "Obstacle"
+    ],
+    "presence": 1,
+    "harm_threshold": 5,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "You can add a maximum of 1[symbol] per test to this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Exhaust your role."
+      }
+    ]
+  },
+  {
+    "id": "swamp-010-overgrown-ruins",
+    "title": "Overgrown Ruins",
+    "card_type": "Feature",
+    "traits": [
+      "Ruin",
+      "Flora"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 5,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [symbol]: Discover [2] a way into the ancient structure to move your [symbol] to this feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: If a [symbol] is on this feature, delve into the ruins. 9.2"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[symbol] to this feature."
+      }
+    ]
+  },
+  {
+    "id": "swamp-011-overgrown-reactor",
+    "title": "Overgrown Reactor",
+    "card_type": "Feature",
+    "traits": [
+      "Machine",
+      "Ruin",
+      "Flora"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 6,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [symbol]: Activate [2] the rumbling dynamo to add 1[symbol] to each feature and being in play for every 2 effort."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[symbol] to this feature."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is a water feature within reach of 1 or more Rangers, they feel a jolt. »» Those Rangers suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "swamp-012-heart-of-the-swamp",
+    "title": "Heart of the Swamp",
+    "card_type": "Feature",
+    "traits": [
+      "Trail",
+      "Water"
+    ],
+    "presence": 0,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [symbol]: Imagine life as hydraworm to intuit the location of their lair to add [symbol] equal to your effort."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [symbol]: Set this card aside. When you next travel, you may travel to The Marsh of Rebirth."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is an odd number of [symbol] on this feature, you lose the trail. »» Discard it."
+      }
+    ],
+    "campaign_log_entry": "9.1"
+  }
+]
