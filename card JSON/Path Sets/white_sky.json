@@ -1,0 +1,157 @@
+[
+  {
+    "id": "white-sky-001-the-bubble",
+    "title": "The Bubble",
+    "card_type": "Feature",
+    "traits": [
+      "Water",
+      "Structure"
+    ],
+    "presence": 0,
+    "harm_threshold": 6,
+    "progress_threshold": "Ranger Token",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [Exploration]: Swim [3] down to the underwater dome to return all of your equipped gear to your hand and move your [Ranger Token] to this feature. If you fail, suffer 1 injury."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "While your [Ranger Token] is on this card, prevent all fatigue you would suffer from the weather."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [Ranger Token]: [Campaign Log Entry] 50"
+      }
+    ],
+    "campaign_log_entry": "50"
+  },
+  {
+    "id": "white-sky-002-ar-tel-angler",
+    "title": "Ar Tel, Angler",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "2R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [Conflict]: Fish [2] with the affable angler to exhaust Ar Tel. If there is a water card in play, soothe 2 fatigue and add 1 token to each equipped food."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 48"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "48"
+  },
+  {
+    "id": "white-sky-003-vira-lake-guide",
+    "title": "Vira, Lake Guide",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [connect]: Ask [3] for guidance to discard a water obstacle and add 3[progress] to Vira."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 49"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "49"
+  },
+  {
+    "id": "white-sky-004-elder-murtok-gral",
+    "title": "Elder Murtok Gral",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 2,
+    "progress_threshold": "2R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Listen [3] to the wisdom of the elders to return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm] : [Campaign Log Entry] 51"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "51"
+  }
+]

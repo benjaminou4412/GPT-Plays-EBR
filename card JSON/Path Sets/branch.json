@@ -1,0 +1,191 @@
+[
+  {
+    "id": "branch-001-elder-tesoral-hale",
+    "title": "Elder Tesoral Hale",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 2,
+    "progress_threshold": "2R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Listen [3] to the wisdom of the elders to return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 66"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "66"
+  },
+  {
+    "id": "branch-002-lyn-mira-woodworker",
+    "title": "Lyn Mira, Woodworker",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": "4R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [connection]: Gather [2] wood with Lyn to add [progress] to a feature equal to your effort. Then add an equal amount of [progress] to Lyn."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 65"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "65"
+  },
+  {
+    "id": "branch-003-seilo-griss-apiarist",
+    "title": "Seilo Griss, Apiarist",
+    "card_type": "Being",
+    "traits": [
+      "Human",
+      "Villager"
+    ],
+    "presence": 1,
+    "harm_threshold": 3,
+    "progress_threshold": "3R",
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [exploration]: Forage [2] for hidden delights with Seilo to add 1 token to an equipped food for every 2 effort. Then add an equal amount of [progress] to Seilo."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress] or [harm]: [Campaign Log Entry] 64"
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ],
+    "campaign_log_entry": "64"
+  },
+  {
+    "id": "branch-004-evergreen-hall",
+    "title": "Evergreen Hall",
+    "card_type": "Feature",
+    "traits": [
+      "Structure"
+    ],
+    "presence": 0,
+    "harm_threshold": 6,
+    "progress_threshold": "1R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [connection]: Share stories with the locals to search the Valley set for any 1 card and attach it facedown to the location. After you travel, put the attached card into play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Ready each human in play."
+      }
+    ],
+    "campaign_log_entry": "63"
+  },
+  {
+    "id": "branch-005-the-hornbranch",
+    "title": "The Hornbranch",
+    "card_type": "Feature",
+    "traits": [
+      "Structure",
+      "Ascent"
+    ],
+    "presence": 0,
+    "harm_threshold": 6,
+    "progress_threshold": "1R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When this feature enters play, draw a path card."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [conflict]: Sound the alarm to add 1[progress] to this card and exhaust a number of beings equal to your effort."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress]: Search the path deck for the next human and put them into play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "If there is an active human with any [harm], they call out in distress. »» They fatigue you."
+      }
+    ],
+    "campaign_log_entry": "62"
+  }
+]

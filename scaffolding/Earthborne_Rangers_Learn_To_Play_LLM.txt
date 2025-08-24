@@ -142,6 +142,9 @@ INTERACTING, FATIGUE, SOOTHE, INJURY
 
 CLEARING CARDS & THRESHOLDS
 - Progress/Harm: add [progress] or [harm] to cards via tests or effects. When tokens on a card reach its relevant threshold (progress or harm), it "clears": discard that card from play and resolve any “when cleared” instructions.
+- "Ranger Token": Some cards have a progress threshold of "Ranger Token". These cards cannot be cleared by progress, though progress can still be added to them. Instead, they clear when every ranger has their ranger token on the card. Typically, these cards have a test with a success effect that moves your ranger token to the card.
+- Some cards have a progress/harm threshold of -1. This indicates the absence of the respective threshold. Progress/harm can still be put on them, but they will never clear due to the respective token type.
+- Some cards have a progress/harm threshold of -2. This indicates the indicated type of token cannot be put on the card at all.
 - Note: Challenge effects that add [progress]/[harm] are not considered “added by you” for effects that care who added them.
 
 RANGER TURNS — OPTIONS IN DETAIL
