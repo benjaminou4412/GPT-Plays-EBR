@@ -1,0 +1,192 @@
+[
+  {
+    "id": "river-003-wading-ursus",
+    "title": "Wading Ursus",
+    "card_type": "Being",
+    "traits": [
+      "Predator",
+      "Mammal"
+    ],
+    "presence": 2,
+    "harm_threshold": 5,
+    "progress_threshold": 6,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is a fish in play, the ursus has found its fishing spot. »» Move this predator to the same area as that fish."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this being is within reach, exhaust it. »» Suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "river-004-toxin-eater",
+    "title": "Toxin Eater",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Biomeld"
+    ],
+    "presence": 2,
+    "harm_threshold": 4,
+    "progress_threshold": 5,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [harm]: Add 2[harm] to each other card in this area. If this being is within reach of a Ranger, that Ranger suffers 1 injury."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Discard 1[progress] from an active water feature and exhaust this being. »» Discard 1[harm] from this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add 1[harm] to it, then add [harm] to this being equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "river-007-silverfin-carp",
+    "title": "Silverfin Carp",
+    "card_type": "Being",
+    "traits": [
+      "Prey",
+      "Fish",
+      "Food"
+    ],
+    "presence": 0,
+    "harm_threshold": 2,
+    "progress_threshold": 3,
+    "enters_play": "within_reach",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict]: Snatch [2] a fish from the water to add 2[harm] to this being and soothe 3 fatigue. If you fail, move this being."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
+      }
+    ]
+  },
+  {
+    "id": "river-008-strong-current",
+    "title": "Strong Current",
+    "card_type": "Feature",
+    "traits": [
+      "Water"
+    ],
+    "presence": "X",
+    "harm_threshold": -1,
+    "progress_threshold": 4,
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of water features in play."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Choose the card along the way with the highest presence and move it within reach. If it's this card, it fatigues you."
+      }
+    ]
+  },
+  {
+    "id": "river-010-overgrown-portage",
+    "title": "Overgrown Portage",
+    "card_type": "Feature",
+    "traits": [
+      "Trail",
+      "Flora",
+      "Obstacle"
+    ],
+    "presence": 0,
+    "harm_threshold": 6,
+    "progress_threshold": "Ranger Token",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Obstacle."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [exploration]: Carry [2] your boat along the trail to move your [Ranger Token] to this feature. Then choose a card within reach and move it along the way."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Exhaust 1 of your equipped gear."
+      }
+    ]
+  },
+  {
+    "id": "river-011-rapids",
+    "title": "Rapids",
+    "card_type": "Feature",
+    "traits": [
+      "Hazard",
+      "Water"
+    ],
+    "presence": 3,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "enters_play": "along_the_way",
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Ambush."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Choose the card along the way with the highest presence and move it within reach."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "If this feature is within reach, you must act quickly or crash into a rock! »» Discard 2[progress] from this feature or suffer 1 injury."
+      }
+    ]
+  }
+]
