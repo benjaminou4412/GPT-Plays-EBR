@@ -19,12 +19,12 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: You feel the swamp shudder. Add 1[symbol] to each other Hydraworm in play."
+        "text": "Clear [harm]: You feel the swamp shudder. Add 1[harm] to each other Hydraworm in play."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If this being has 1 or more [symbol], the swamp churns. »» Search the path deck and discard for a Hydraworm and put it into play."
+        "text": "If this being has 1 or more [harm], the swamp churns. »» Search the path deck and discard for a Hydraworm and put it into play."
       },
       {
         "kind": "challenge",
@@ -58,7 +58,7 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Discern [2] the movements of the courageous rodent to exhaust this being. Add 1[symbol] to it, and 2[symbol] to a feature, for every 2 effort."
+        "text": "FOC + [exploration]: Discern [2] the movements of the courageous rodent to exhaust this being. Add 1[progress] to it, and 2[progress] to a feature, for every 2 effort."
       },
       {
         "kind": "challenge",
@@ -68,7 +68,7 @@
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active predator, exhaust it. »» Add [symbol] to this being equal to that predator's presence."
+        "text": "If there is an active predator, exhaust it. »» Add [harm] to this being equal to that predator's presence."
       }
     ]
   },
@@ -92,7 +92,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Response: After a being is cleared by [symbol], attach it facedown to this feature."
+        "text": "Response: After a being is cleared by [harm], attach it facedown to this feature."
       },
       {
         "kind": "static",
@@ -137,7 +137,7 @@
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "You can add a maximum of 1[symbol] per test to this feature."
+        "text": "You can add a maximum of 1[progress] per test to this feature."
       },
       {
         "kind": "challenge",
@@ -166,22 +166,22 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "AWA + [symbol]: Discover [2] a way into the ancient structure to move your [symbol] to this feature."
+        "text": "AWA + [exploration]: Discover [2] a way into the ancient structure to move your [Ranger Token] to this feature."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: If a [symbol] is on this feature, delve into the ruins. 9.2"
+        "text": "Clear [progress]: If a [Ranger Token] is on this feature, delve into the ruins. 9.2"
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
+        "text": "Clear [harm]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[symbol] to this feature."
+        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[harm] to this feature."
       }
     ]
   },
@@ -206,17 +206,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "FOC + [symbol]: Activate [2] the rumbling dynamo to add 1[symbol] to each feature and being in play for every 2 effort."
+        "text": "FOC + [reason]: Activate [2] the rumbling dynamo to add 1[harm] to each feature and being in play for every 2 effort."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
+        "text": "Clear [harm]: The crumbling structure churns the swamp. Draw a path card. If it is a Hydraworm, it fatigues you."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "mountain",
-        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[symbol] to this feature."
+        "text": "If there is an active Hydraworm, it damages the foundation. »» Add 1[harm] to this feature."
       },
       {
         "kind": "challenge",
@@ -245,17 +245,17 @@
       {
         "kind": "test",
         "challenge_symbol": null,
-        "text": "SPI + [symbol]: Imagine life as hydraworm to intuit the location of their lair to add [symbol] equal to your effort."
+        "text": "SPI + [exploration]: Imagine life as hydraworm to intuit the location of their lair to add [progress] equal to your effort."
       },
       {
         "kind": "static",
         "challenge_symbol": null,
-        "text": "Clear [symbol]: Set this card aside. When you next travel, you may travel to The Marsh of Rebirth."
+        "text": "Clear [progress]: Set this card aside. When you next travel, you may travel to The Marsh of Rebirth."
       },
       {
         "kind": "challenge",
         "challenge_symbol": "sun",
-        "text": "If there is an odd number of [symbol] on this feature, you lose the trail. »» Discard it."
+        "text": "If there is an odd number of [progress] on this feature, you lose the trail. »» Discard it."
       }
     ],
     "campaign_log_entry": "9.1"
