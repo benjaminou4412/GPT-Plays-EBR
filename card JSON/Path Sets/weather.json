@@ -1,0 +1,242 @@
+[
+  {
+    "id": "weather-001-a-perfect-day",
+    "title": "A Perfect Day",
+    "card_type": "Weather",
+    "traits": [],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "cloud",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Discard 1 cloud from this card. If there are no clouds remaining, flip this card into Midday Sun."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If this test added [progress], add 1 additional [progress]."
+      }
+    ]
+  },
+  {
+    "id": "weather-002-midday-sun",
+    "title": "Midday Sun",
+    "card_type": "Weather",
+    "traits": [
+      "Hot"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "cloud",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Add 1 cloud to this card. If there are 3 or more clouds, flip this card into A Perfect Day."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Locate [2] shade to wait out the blaring sun to add 1 cloud to this card and soothe 1 fatigue."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Suffer 1 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "weather-003-downpour",
+    "title": "Downpour",
+    "card_type": "Weather",
+    "traits": [
+      "Inclement"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "rain",
+      "amount": 4
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Discard 1 rain from this card. »» Each ranger suffers 1 fatigue. If there is no rain remaining, flip this card into Gathering Storm."
+      }
+    ]
+  },
+  {
+    "id": "weather-004-gathering-storm",
+    "title": "Gathering Storm",
+    "card_type": "Weather",
+    "traits": [],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "rain",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Shelter [2] from the threatening clouds overhead to discard 1 rain from this card for every 2 effort."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Add 2 rain to this card. If there are 4 or more rain tokens, a peal of thunder fills the air, and a heavy rain begins. Move all prey along the way. Then, each ranger exhausts their role. Flip this card into Downpour."
+      }
+    ]
+  },
+  {
+    "id": "weather-005-howling-winds",
+    "title": "Howling Winds",
+    "card_type": "Weather",
+    "traits": [
+      "Inclement"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "wind",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Arrival Setup: Search the General set for a Cerberusian Cyclone and shuffle it into the path deck."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: If there is 3R or more wind on this card, remove them, the lead ranger draws 1 additional path card next round, and flip this card into Thunderhead."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Add 2 wind to this card. You may suffer up to 2 fatigue to add 1 fewer wind for each fatigue suffered this way."
+      }
+    ]
+  },
+  {
+    "id": "weather-006-thunderhead",
+    "title": "Thunderhead",
+    "card_type": "Weather",
+    "traits": [
+      "Inclement"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": null,
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Flip this card into Howling Winds."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Remove 1 [progress] from each path card and the location."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "A lightning strike startles a creature to alertness. Ready 1 predator or prey."
+      }
+    ]
+  },
+  {
+    "id": "weather-007-electric-fog",
+    "title": "Electric Fog",
+    "card_type": "Weather",
+    "traits": [
+      "Inclement"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "fog",
+      "amount": 4
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Arrival Setup: Search the General set for a Ball Lightning and shuffle it into the path deck."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you perform an Avoid test, you may pass through the fog to discard 1 fog to commit 1 effort. If you fail, suffer 1 injury."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Discard 1 fog from this card. Each ranger suffers 1 fatigue. If is no fog remaining, flip this card into Clinging Mist."
+      }
+    ]
+  },
+  {
+    "id": "weather-008-clinging-mist",
+    "title": "Clinging Mist",
+    "card_type": "Weather",
+    "traits": [
+      "Inclement"
+    ],
+    "presence": null,
+    "harm_threshold": -1,
+    "progress_threshold": -1,
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "fog",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Increase the difficulty of all tests by 1."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Add 2 fog to this card. If there is 4 or more fog on this card, flip it into Electric Fog."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "The wet ground is difficult to navigate. Discard 1 energy."
+      }
+    ]
+  }
+]
