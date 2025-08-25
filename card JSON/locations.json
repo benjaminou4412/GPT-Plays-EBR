@@ -1,128 +1,33 @@
 [
   {
-    "id": "location-01-white-sky",
-    "title": "White Sky",
+    "id": "location-08-ancestors-grove",
+    "title": "Ancestor's Grove",
     "card_type": "Location",
-    "traits": [
-      "Pivotal",
-      "Water",
-      "Trail"
-    ],
+    "traits": ["Forest", "Trail"],
     "presence": 1,
-    "harm_threshold": -1,
-    "progress_threshold": "3R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
-    "rules": [
-      {
-        "kind": "test",
-        "challenge_symbol": null,
-        "text": "AWA + [connection]: Search the shores beside the towering parasols of White Sky to scout path cards equal to your effort, then draw 1 path card."
-      }
-    ]
-  },
-  {
-    "id": "location-02-lone-tree-station",
-    "title": "Lone Tree Station",
-    "card_type": "Location",
-    "traits": [
-      "Pivotal",
-      "Forest",
-      "Ranger Station"
-    ],
-    "presence": 1,
-    "harm_threshold": -1,
-    "progress_threshold": "3R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
-    "rules": [
-      {
-        "kind": "test",
-        "challenge_symbol": null,
-        "text": "AWA + [connection]: Search beneath the comforting shade of your Giga-Redwood home to scout path cards equal to your effort, then draw 1 path card."
-      }
-    ]
-  },
-  {
-    "id": "location-03-northern-outpost",
-    "title": "Northern Outpost",
-    "card_type": "Location",
-    "traits": [
-      "Pivotal",
-      "Ranger Station"
-    ],
-    "presence": 2,
     "harm_threshold": -1,
     "progress_threshold": "4R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": "neglect",
-      "amount": "2R"
-    },
     "rules": [
       {
-        "kind": "test",
-        "challenge_symbol": null,
-        "text": "FOC + [reason]: Tidy the remote outpost to discard 1 neglect from this location. If you fail, it fatigues you."
-      },
-      {
-        "kind": "static",
-        "challenge_symbol": null,
-        "text": "When there is no neglect on this location: [Campaign Log Entry] 4.1."
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Choose a card from your ranger discard. Place it on top of your fatigue stack."
       }
     ]
   },
   {
-    "id": "location-04-atrox-mountain",
-    "title": "Atrox Mountain",
+    "id": "location-07-boulder-field",
+    "title": "Boulder Field",
     "card_type": "Location",
-    "traits": [
-      "Mountain",
-      "Ascent"
-    ],
-    "presence": 2,
-    "harm_threshold": -1,
-    "progress_threshold": "5R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
-    "rules": [
-      {
-        "kind": "test",
-        "challenge_symbol": null,
-        "text": "FIT + [reason]: Climb the steep and perilous route to add 2 [symbol] to this location for every effort. Then, it fatigues you."
-      }
-    ]
-  },
-  {
-    "id": "location-05-golden-shore",
-    "title": "Golden Shore",
-    "card_type": "Location",
-    "traits": [
-      "Trail",
-      "Water"
-    ],
+    "traits": ["Field", "Trail"],
     "presence": 1,
     "harm_threshold": -1,
-    "progress_threshold": "3R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
+    "progress_threshold": "4R",
     "rules": [
       {
-        "kind": "test",
-        "challenge_symbol": null,
-        "text": "SPI + [reason]: Contemplate [2] the rhythmic waves as they lap the glittering shoreline to soothe 1 fatigue for every 2 effort."
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Reduce the presence of all beings in play by 1."
       }
     ]
   },
@@ -137,11 +42,6 @@
     "presence": 2,
     "harm_threshold": -1,
     "progress_threshold": "4R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "rules": [
       {
         "kind": "test",
@@ -151,50 +51,89 @@
     ]
   },
   {
-    "id": "location-07-boulder-field",
-    "title": "Boulder Field",
+    "id": "location-05-golden-shore",
+    "title": "Golden Shore",
     "card_type": "Location",
-    "traits": [
-      "Field",
-      "Ascent"
-    ],
+    "traits": ["Water", "Trail"],
     "presence": 1,
     "harm_threshold": -1,
-    "progress_threshold": "4R",
-    "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
+    "progress_threshold": "3R",
     "rules": [
       {
-        "kind": "challenge",
-        "challenge_symbol": "mountain",
-        "text": "Reduce the presence of all beings in play by 1."
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [reason]: Contemplate [2] the rhythmic waves as they lap the glittering shoreline to soothe 1 fatigue for every 2 effort."
       }
     ]
   },
   {
-    "id": "location-08-ancestor-s-grove",
-    "title": "Ancestor's Grove",
+    "id": "location-04-atrox-mountain",
+    "title": "Atrox Mountain",
     "card_type": "Location",
     "traits": [
-      "Forest",
-      "Trail"
+      "Mountain",
+      "Ascent"
     ],
-    "presence": 1,
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [reason]: Climb the steep and perilous route to add 2 [progress] to this location for every effort. Then, it fatigues you."
+      }
+    ]
+  },
+  {
+    "id": "location-03-northern-outpost",
+    "title": "Northern Outpost",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Ranger Station"],
+    "presence": 2,
     "harm_threshold": -1,
     "progress_threshold": "4R",
-    "enters_play": null,
     "enters_play_with": {
-      "type": null,
-      "amount": 0
+      "type": "neglect",
+      "amount": "2R"
     },
     "rules": [
       {
-        "kind": "challenge",
-        "challenge_symbol": "sun",
-        "text": "Choose a card from your ranger discard. Place it on top of your fatigue stack."
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Tidy the remote outpost to discard 1 neglect from this location. If you fail, it fatigues you. When there is no neglect on this location: [Campaign Log Entry] 4.1"
+      }
+    ]
+  },
+  {
+    "id": "location-02-lone-tree-station",
+    "title": "Lone Tree Station",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Forest", "Ranger Station"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Search beneath the comforting shade of your Giga-Redwood home to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ]
+  },
+  {
+    "id": "location-01-white-sky",
+    "title": "White Sky",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Water", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Search the shores beside the towering parasols of White Sky to scout path cards equal to your effort, then draw 1 path card."
       }
     ]
   }
