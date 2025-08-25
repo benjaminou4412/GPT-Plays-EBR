@@ -1,0 +1,527 @@
+[
+  {
+    "id": "artificer-01-masterful-engineer",
+    "title": "Masterful Engineer",
+    "card_type": "role",
+    "set": "Artificer",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Ready a tech."
+      }
+    ]
+  },
+  {
+    "id": "artificer-02-exceptional-tinkerer",
+    "title": "Exceptional Tinkerer",
+    "card_type": "role",
+    "set": "Artificer",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Spend 1 energy to add 1 token to a tech."
+      }
+    ]
+  },
+  {
+    "id": "artificer-03-ferinodex",
+    "title": "Ferinodex",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Book",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "profile",
+      "amount": 4
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 profile): When a Ranger performs an Avoid test, commit 1 effort."
+      }
+    ],
+    "flavor_text": "The telescopic sensor extending from the spine identifies nearby fauna then reveals information regarding their biology and behavior from within the tome."
+  },
+  {
+    "id": "artificer-04-carbonforged-cable",
+    "title": "Carbonforged Cable",
+    "card_type": "attachment",
+    "set": "Artificer",
+    "traits": [
+      "Tool",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "length",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a predator."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 length: When the attached predator would ready, it remains exhausted."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict]: Lead the animal to move the attached predator."
+      }
+    ]
+  },
+  {
+    "id": "artificer-05-dayhowler",
+    "title": "Dayhowler",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Discard this gear from play to exhaust beings equal to the number of charges on this gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you succeed at an Avoid test, add 1 charge to this gear."
+      }
+    ]
+  },
+  {
+    "id": "artificer-06-trail-markers",
+    "title": "Trail Markers",
+    "card_type": "attachment",
+    "set": "Artificer",
+    "traits": [
+      "Tool"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a location or feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "The attached card gains the trail trait."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When 1 or more [progress] is added to the attached trail, increase the number of [progress] added by 1."
+      }
+    ]
+  },
+  {
+    "id": "artificer-07-spiderpad-gloves",
+    "title": "Spiderpad Gloves",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Clothing",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 2
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "During your turn, you may treat obstacles as if they did not have the obstacle keyword."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [reason] (use 1 charge): Climb the obstructing terrain with the agility of a spider to move your ◆ to an obstacle."
+      }
+    ]
+  },
+  {
+    "id": "artificer-08-wrist-mounted-darter",
+    "title": "Wrist-mounted Darter",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Tech",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "dart",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [conflict] (use 1 dart): Shoot one of the featherlight darts to add [harm] to a being equal to your effort. Whether you succeed or fail, dodge all cards between you and that being."
+      }
+    ]
+  },
+  {
+    "id": "artificer-09-infusion-canteen",
+    "title": "Infusion Canteen",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Tool",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "sip",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you equip this gear, choose an aspect (you may place a spare energy token here as a reminder)."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 sip): Gain 1 energy matching the chosen aspect."
+      }
+    ]
+  },
+  {
+    "id": "artificer-10-memorill-sketchpad",
+    "title": "Memorill Sketchpad",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Book",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "inkrill",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After a path card is cleared, add 1 inkrill to this gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 inkrill: When a Ranger interacts with a feature, commit 1 effort."
+      }
+    ]
+  },
+  {
+    "id": "artificer-11-memlev-trekking-poles",
+    "title": "Memlev Trekking Poles",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Tool",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 3,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 charge): When you perform a Traverse test, use FOC instead of FIT."
+      }
+    ],
+    "flavor_text": "With each step, your trekking poles spring upward, easing your burden as they provide buoyancy to your limbs."
+  },
+  {
+    "id": "artificer-12-a-stone-in-the-river",
+    "title": "A Stone in the River",
+    "card_type": "moment",
+    "set": "Artificer",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you succeed at an Avoid test, exhaust 1 additional being."
+      }
+    ],
+    "flavor_text": "Whether in your workshop or in nature, you are able to reach a state of being where you are at one with your surroundings, moving with an ease that suggests an intrinsic understanding of creation."
+  },
+  {
+    "id": "artificer-13-camoweave-cloak",
+    "title": "Camoweave Cloak",
+    "card_type": "gear",
+    "set": "Artificer",
+    "traits": [
+      "Clothing",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 charge: When you would suffer 1 or more fatigue from a path card, reduce the fatigue suffered to 0."
+      }
+    ],
+    "flavor_text": "With a clockwise rotation of the clasp, the surface of the cloak adopts the patterns and coloration of your environment, making you all but invisible to the untrained eye."
+  },
+  {
+    "id": "artificer-14-thoroughly-prepared",
+    "title": "Thoroughly Prepared",
+    "card_type": "moment",
+    "set": "Artificer",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger would suffer 1 or more fatigue, they soothe that amount of fatigue instead."
+      }
+    ],
+    "flavor_text": "You never leave your workshop without the tools essential to survival in the wilderness. The right tool can turn even the most exhausting of endeavors into a moment of exhilaration."
+  }
+]

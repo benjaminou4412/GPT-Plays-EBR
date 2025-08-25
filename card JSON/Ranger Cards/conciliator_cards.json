@@ -1,0 +1,485 @@
+[
+  {
+    "id": "conciliator-01-guardian",
+    "title": "Guardian",
+    "card_type": "role",
+    "set": "Conciliator",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Reduce a being's presence to 0 until the end of the turn."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-02-voice-of-the-elders",
+    "title": "Voice of the Elders",
+    "card_type": "role",
+    "set": "Conciliator",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Spend 1 energy to add 1 token to an aid card."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-03-surveyed-land",
+    "title": "Surveyed Land",
+    "card_type": "attachment",
+    "set": "Conciliator",
+    "traits": [
+      "Experience",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "marker",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Reduce the attached feature's presence by 1 for each marker on this attachment."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-04-tranquilisnare",
+    "title": "Tranquilisnare",
+    "card_type": "attachment",
+    "set": "Conciliator",
+    "traits": [
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "enters_play_with": {
+      "type": "snare",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Reduce the attached being's presence by 1 for each snare on this attachment."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-05-one-with-nature",
+    "title": "One With Nature",
+    "card_type": "moment",
+    "set": "Conciliator",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Reduce the presence of each card in play to 0 until the end of the next turn."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-06-follow-in-footsteps",
+    "title": "Follow in Footsteps",
+    "card_type": "moment",
+    "set": "Conciliator",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 2
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you succeed at a Connect test, add [progress] to a feature equal to your effort. This is in addition to the test's standard effect."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-07-orlin-thumper",
+    "title": "Orlin Thumper",
+    "card_type": "gear",
+    "set": "Conciliator",
+    "traits": [
+      "Tech",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "pulse",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict] (use 1 pulse): Strike [2] with a pulse of kinetic energy to add 1 [harm] to a being and exhaust it. If you fail, discard 1 [progress] from that being; if you cannot, it fatigues you instead."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-08-tracked",
+    "title": "Tracked",
+    "card_type": "attachment",
+    "set": "Conciliator",
+    "traits": [
+      "Skill",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play_with": {
+      "type": "track",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After a challenge effect on the attached being resolves, add 1 track."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 track: When a Ranger performs a test, commit 1 effort."
+      }
+    ]
+  },
+  {
+    "id": "conciliator-09-intention-translator",
+    "title": "Intention Translator",
+    "card_type": "gear",
+    "set": "Conciliator",
+    "traits": [
+      "Tech",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 charge): When a Ranger performs a Connect test, commit 1 effort."
+      }
+    ],
+    "flavor_text": "When this device is activated, you feel somehow incapable of misunderstanding those around you. Each word and gesture conveys a purity of thought perceivable by only the most empathetic of beings."
+  },
+  {
+    "id": "conciliator-10-safeguard",
+    "title": "Safeguard",
+    "card_type": "moment",
+    "set": "Conciliator",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 0,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 2
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger would suffer an injury or [harm] would be added to a being, cancel that effect. Suffer 1 injury."
+      }
+    ],
+    "flavor_text": "You are selfless in your defense of others, knowing that all wounds are temporary, and the scars you carry are reminders of your sworn duty."
+  },
+  {
+    "id": "conciliator-11-nidocyte-sentinel",
+    "title": "Nidocyte Sentinel",
+    "card_type": "attachment",
+    "set": "Conciliator",
+    "traits": [
+      "Tech",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play_with": {
+      "type": "alarm",
+      "amount": 2
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a being."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 alarm: Before a challenge effect on the attached being would resolve, cancel that effect."
+      }
+    ],
+    "flavor_text": "A small ceramic device worn at your waist sends a pulse of energy to your chest, alerting you to potential dangers."
+  },
+  {
+    "id": "conciliator-12-ancestral-teachings",
+    "title": "Ancestral Teachings",
+    "card_type": "moment",
+    "set": "Conciliator",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust a being. Then add [progress] to that being equal to the number of exhausted beings within reach."
+      }
+    ],
+    "flavor_text": "Our ancestors hold a wealth of knowledge and experience. To venture forth into life as paupers is both foolish and unnecessary. With their help we may preserve that which they've gifted to us and prosper."
+  },
+  {
+    "id": "conciliator-13-pokodo-the-ferret",
+    "title": "Pokodo the Ferret",
+    "card_type": "being",
+    "set": "Conciliator",
+    "traits": [
+      "Companion",
+      "Mammal"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 2
+      },
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "presence": 1,
+    "progress_threshold": -1,
+    "harm_threshold": 1,
+    "enters_play": "within_reach",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly. Persistent. Unique."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Discard 1 [progress] from this being to add 1 token to an aid card and 2 [progress] to another being."
+      }
+    ],
+    "flavor_text": "Pokodo is unswervingly loyal and adored by all who meet her."
+  },
+  {
+    "id": "conciliator-14-a-dear-friend",
+    "title": "A Dear Friend",
+    "card_type": "attachment",
+    "set": "Conciliator",
+    "traits": [
+      "Experience",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Search the path deck and discard for a human and put them into play with this card attached."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After the attached human is cleared, move the [progress] that were on it to any number of other beings, divided as you choose."
+      }
+    ]
+  }
+]
