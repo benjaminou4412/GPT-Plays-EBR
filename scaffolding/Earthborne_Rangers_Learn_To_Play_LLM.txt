@@ -77,7 +77,7 @@ PHASE 2 — RANGER TURNS
   1) Perform a Test (details below).
   2) Play a Ranger card from hand (pay its energy cost; resolve its type-specific effect).
   3) Rest (end your participation this round; resolve any “when you rest” effects; you cannot take further turns this round).
-• At the start or end of any Ranger’s turn: you may resolve exhaust abilities with no specific timing and discard equipped gear you no longer want. These exhaust abilities are typically found on your role card and on ranger cards in play.
+• At the start or end of any Ranger’s turn: you may resolve "Exhaust:" abilities with no specific timing and discard equipped gear you no longer want. These exhaust abilities are typically found on your role card and on ranger cards in play. You cannot use the "Exhaust:" abilities of exhausted cards. You can use as many or few exhaust "Exhaust:" abilities as you want at any given window where you're allowed to use them. If an "Exhaust:" ability has a specified timing (usually of the form "When..."), it can only be used at the specified timing point.
 • When all Rangers have rested, proceed to Phase 3: Travel.
 
 PHASE 3 — TRAVEL

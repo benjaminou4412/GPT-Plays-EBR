@@ -1,0 +1,478 @@
+[
+  {
+    "id": "explorer-01-undaunted-seeker",
+    "title": "Undaunted Seeker",
+    "card_type": "role",
+    "set": "Explorer",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: When you perform a test, dodge 1 card."
+      }
+    ]
+  },
+  {
+    "id": "explorer-02-peerless-pathfinder",
+    "title": "Peerless Pathfinder",
+    "card_type": "role",
+    "set": "Explorer",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Move your [Ranger Token] to a feature. That feature fatigues you."
+      }
+    ]
+  },
+  {
+    "id": "explorer-03-a-leaf-in-the-breeze",
+    "title": "A Leaf in the Breeze",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you Traverse, dodge up to 3 cards."
+      }
+    ],
+    "flavor_text": "You sense the flow of energy in the life around you and heed its subtle cues as you pass unnoticed along your path."
+  },
+  {
+    "id": "explorer-04-hydrolens-goggles",
+    "title": "Hydrolens Goggles",
+    "card_type": "gear",
+    "set": "Explorer",
+    "traits": [
+      "Clothing",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "drop",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason] (use 1 drop): Clarify your view of the environment around you to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ],
+    "flavor_text": "You depress the applicator, and one small drop of water bubbles and expands to form a single clarifying lens."
+  },
+  {
+    "id": "explorer-05-share-in-the-valleys-secrets",
+    "title": "Share in the Valley's Secrets",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust each obstacle. Suffer fatigue equal to the number of obstacles exhausted this way."
+      }
+    ],
+    "flavor_text": "Your mentor once took you into the hills beyond Lone Tree, blindfolded, and had you lead the way home in the night, with only the stars to guide you."
+  },
+  {
+    "id": "explorer-06-boundary-sensor",
+    "title": "Boundary Sensor",
+    "card_type": "gear",
+    "set": "Explorer",
+    "traits": [
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "sensor",
+      "amount": 4
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 sensor): When a Ranger performs a Traverse test, commit 1 effort."
+      }
+    ],
+    "flavor_text": "A soft hum briefly emits from the device, and you suddenly feel more confident in your steps, certain of the way forward."
+  },
+  {
+    "id": "explorer-07-orlin-hiking-stave",
+    "title": "Orlin Hiking Stave",
+    "card_type": "gear",
+    "set": "Explorer",
+    "traits": [
+      "Tool",
+      "Tech",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "stride",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 stride): Add 1 [progress] to a trail."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict]: Strike [2] out with your walking implement to add 1 [harm] to a being for every 2 effort. If you fail, suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "explorer-08-afforded-by-nature",
+    "title": "Afforded by Nature",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Experience",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      },
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Discard any number of [progress] from a trail to add an equal number of [harm] to a being."
+      }
+    ],
+    "flavor_text": "You've learned from experience that sometimes a persistent predator can only be dissuaded from its meal by a faceful of rocks or a decaying log suddenly dropped in its path."
+  },
+  {
+    "id": "explorer-09-phonoscopic-headset",
+    "title": "Phonoscopic Headset",
+    "card_type": "gear",
+    "set": "Explorer",
+    "traits": [
+      "Clothing",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: When a Ranger scouts, increase the number of cards scouted by 1."
+      }
+    ],
+    "flavor_text": "You tap the sensor at your temple, and sight and sound converge to evoke a scene in your mind beyond what your ears and eyes can normally comprehend."
+  },
+  {
+    "id": "explorer-10-field-journal",
+    "title": "Field Journal",
+    "card_type": "gear",
+    "set": "Explorer",
+    "traits": [
+      "Book"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "entry",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you rest, add entries equal to the number of FOC in your energy pool."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use 1 entry: When a Ranger interacts with a feature, commit 1 effort."
+      }
+    ]
+  },
+  {
+    "id": "explorer-11-hidden-trail",
+    "title": "Hidden Trail",
+    "card_type": "feature",
+    "set": "Explorer",
+    "traits": [
+      "Trail"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 2
+      }
+    ],
+    "presence": 0,
+    "progress_threshold": "3R",
+    "harm_threshold": -1,
+    "enters_play": "within_reach",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you travel, if this trail is attached to the location, travel to a location up to two paths away. Use the terrain of the second path when building the path deck."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Clear [progress]: Attach this trail to the location."
+      }
+    ]
+  },
+  {
+    "id": "explorer-12-walk-with-me",
+    "title": "Walk With Me",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you succeed at a Traverse test, add [progress] to a being equal to your effort. This is in addition to the test's standard effect."
+      }
+    ],
+    "flavor_text": "Through practice and intention, you've learned to show others the vastness of possibility before them. There are no limits save the ones we place on ourselves."
+  },
+  {
+    "id": "explorer-13-breathe-into-it",
+    "title": "Breathe Into It",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you perform a test, discard any number of cards from your fatigue stack to commit 1 effort to that test for every 2 cards discarded this way."
+      }
+    ]
+  },
+  {
+    "id": "explorer-14-cradled-by-the-earth",
+    "title": "Cradled by the Earth",
+    "card_type": "moment",
+    "set": "Explorer",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose a trail. Soothe fatigue equal to the number of [progress] on that trail. This fatigue may be divided as you choose between all Rangers."
+      }
+    ],
+    "flavor_text": "You lie back and breathe deep. In this moment you are keenly aware of your connection to the earth and to all living things."
+  }
+]
