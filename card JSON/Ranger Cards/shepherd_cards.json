@@ -1,0 +1,340 @@
+[
+  {
+    "id": "shepherd-01-one-eye-open",
+    "title": "One Eye Open",
+    "card_type": "moment",
+    "set": "Shepherd",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 0,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you rest, exhaust up to one being for each AWA in your energy pool."
+      }
+    ],
+    "flavor_text": "While tending your flock of ironwool sheep, under the sun and moon, you learned the importance of staying alert, even when all seems still."
+  },
+  {
+    "id": "shepherd-02-riri-the-sparrow-hawk",
+    "title": "Riri the Sparrow Hawk",
+    "card_type": "being",
+    "set": "Shepherd",
+    "traits": [
+      "Companion",
+      "Avian"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "presence": 1,
+    "enters_play": "within_reach",
+    "harm_threshold": 1,
+    "progress_threshold": -1,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly. Persistent. Unique."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Add 1 [harm] to a being in the same area as this companion."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Survey the way ahead to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ]
+  },
+  {
+    "id": "shepherd-03-a-gentle-nudge",
+    "title": "A Gentle Nudge",
+    "card_type": "moment",
+    "set": "Shepherd",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Each Ranger may discard 1 [progress] from a being within reach of them to move that being."
+      }
+    ],
+    "flavor_text": "You've spent countless days, year after year, in relative solitude, alone but for your flock. In that time you've learned that any being can be reasoned with. You just need to ask nicely (and put your back into it)."
+  },
+  {
+    "id": "shepherd-04-homeward-bound",
+    "title": "Homeward Bound",
+    "card_type": "moment",
+    "set": "Shepherd",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Move all [progress] from a being to a feature."
+      }
+    ],
+    "flavor_text": "Your uncle loves to regale any who'll listen with the Tale of the Shepherd and the Relgarbeast. The shepherd in the tale saves his flock not by harming the beast, but by riding it back to the village. It then becomes a valued member of the community, rooting out Scrofs in the field."
+  },
+  {
+    "id": "shepherd-05-paratrepsis-whistle",
+    "title": "Paratrepsis Whistle",
+    "card_type": "gear",
+    "set": "Shepherd",
+    "traits": [
+      "Tool",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "call",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 call): When a Ranger would suffer an injury from a predator or [harm] would be added to a being by a predator, cancel that effect."
+      }
+    ],
+    "flavor_text": "You were gifted this whistle during a brief summer romance, and each time you blow it, you're reminded of a flower-scented breeze beneath a high, glimmering sun."
+  },
+  {
+    "id": "shepherd-06-a-deeper-understanding",
+    "title": "A Deeper Understanding",
+    "card_type": "moment",
+    "set": "Shepherd",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose a being. Move [progress] from the chosen being to each other path card and location in play, up to 1 [progress] per card."
+      }
+    ],
+    "flavor_text": "In your solitude, you once observed the wind describing its course across the plain and came to a place of peace. You saw your life as the wind, ephemeral and beautiful, and you were grateful for it."
+  },
+  {
+    "id": "shepherd-07-healing-touch",
+    "title": "Healing Touch",
+    "card_type": "moment",
+    "set": "Shepherd",
+    "traits": [
+      "Skill",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose one: Discard 1 [harm] from a being to add 3 [progress] to it, or heal 1 injury from a Ranger."
+      }
+    ]
+  },
+  {
+    "id": "shepherd-08-calming-presence",
+    "title": "Calming Presence",
+    "card_type": "attachment",
+    "set": "Shepherd",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a predator."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attached card loses the predator trait."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: Before a challenge effect on the attached card would resolve, you may discard 2 [progress] from it to cancel the effect."
+      }
+    ]
+  },
+  {
+    "id": "shepherd-09-oru-the-sheep-dog",
+    "title": "Oru the Sheep Dog",
+    "card_type": "being",
+    "set": "Shepherd",
+    "traits": [
+      "Companion",
+      "Mammal",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "presence": 2,
+    "enters_play": "within_reach",
+    "harm_threshold": 3,
+    "progress_threshold": -1,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Friendly. Persistent. Unique."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Move a being and add 2 [progress] to it."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [connection]: Pet your canine companion to ready this being and soothe 1 fatigue."
+      }
+    ]
+  }
+]
