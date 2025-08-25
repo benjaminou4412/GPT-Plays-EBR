@@ -151,10 +151,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "rules": [
       {
         "kind": "static",

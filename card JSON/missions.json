@@ -42,10 +42,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You have to venture to a different location for the next step in your journey.",
     "mission_locations": [],
     "mission_objective": "Arrive at the attached location: [Campaign Log Entry] 1.50",
@@ -62,10 +58,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You have agreed to help this person with a task around the Valley.",
     "mission_locations": [],
     "mission_objective": null,
@@ -93,10 +85,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Continuing a time-honored Ranger tradition, Calypsa has tasked you with delivering biscuits to the people of White Sky as your first mission. Find Hy Pimpot at Lone Tree Station. He'll give you the biscuits and send you on your way.",
     "mission_locations": [],
     "mission_objective": "Travel away from Lone Tree Station while Hy Pimpot is in play: [Campaign Log Entry] 1.01",
@@ -122,10 +110,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You've agreed to help Spirit Speaker Nal investigate the Caustic Mulcher's purpose in the ecosystem. Explore the woodlands of the Valley, where Caustic Mulchers can be found.",
     "mission_locations": [],
     "mission_objective": "Have all [Ranger Tokens] on this card: [Campaign Log Entry] 1.40",
@@ -153,10 +137,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Torrential rains are causing floods.",
     "mission_locations": [
       "White Sky",
@@ -193,10 +173,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Deploy sensors to try to detect Reclaimers.",
     "mission_locations": [
       "The Plummet",
@@ -233,10 +209,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You might be able to track the mysterious Verdessian through its effects on local flora.",
     "mission_locations": [],
     "mission_objective": "Have 2R or more vine tokens on this card: [Campaign Log Entry] 1.11",
@@ -279,10 +251,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "To study the Reclaimers you will first have to track one of the creatures back to their nest. Since you can't keep up with them on foot, you will have to tag them with sap and let Gus the mole sniff out the trail for you.",
     "mission_locations": [],
     "mission_objective": null,
@@ -310,10 +278,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Search the Valley for options on how to deal with the mounting reclaimer invasion before it overwhelms the Valley.",
     "mission_locations": [],
     "mission_objective": null,
@@ -336,10 +300,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Aell fled into the southern swamps. If you can find him, perhaps you can get him to create another flood.",
     "mission_locations": [
       "Marsh of Rebirth"
@@ -364,10 +324,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Set up lures around the swamp.",
     "mission_locations": [
       "The Greenbridge",
@@ -403,10 +359,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "The strange biomelds known as 'reclaimers' are swarming over the Valley. More appear each day.",
     "mission_locations": [],
     "mission_objective": null,
@@ -429,10 +381,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "A horde of reclaimers is moving towards Spire! You'll have to get there right away to help with the evacuation.",
     "mission_locations": [
       "Spire"
@@ -462,10 +410,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Locate one of the local mega-predators by finding prey to lure it out.",
     "mission_locations": [],
     "mission_objective": "Arrive at a new location while there is 5 or more total presence of prey set aside: [Campaign Log Entry] 1.42",
@@ -493,10 +437,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You are following the trail of a missing local.",
     "mission_locations": [],
     "mission_objective": "Have 4R or more trail tokens on this mission: [Campaign Log Entry] 1.45",
@@ -539,10 +479,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": "surroundings",
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Silaro Mako has asked you to keep an eye out for remnants of the old arcology for him.",
     "mission_locations": [],
     "mission_objective": "After this mission has 3 check marks, find Silaro Mako to continue.",
@@ -565,10 +501,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "The reclaimers are everywhere. They seem to be creating nests in certain locations.",
     "mission_locations": [],
     "mission_objective": null,
@@ -591,10 +523,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "The Reclaimers are swarming into Spire! Get as many people to safety as possible.",
     "mission_locations": [
       "Spire"
@@ -634,10 +562,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You've found the mega-predator! Now it's time to deal with it once and for all.",
     "mission_locations": [],
     "mission_objective": null,
@@ -680,10 +604,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You've found the missing person! Get them back to the safety of a Ranger Station as quickly as possible.",
     "mission_locations": [],
     "mission_objective": "Arrive at a Ranger Station: [Campaign Log Entry] 1.46",
@@ -731,10 +651,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You've agreed to help Kordo remove the unnatural biomeld Caustic Mulcher from the ecosystem. Explore the woodlands of the Valley, where Caustic Mulchers can be found.",
     "mission_locations": [],
     "mission_objective": "Clear a Caustic Mulcher with [harm]: [Campaign Log Entry] 1.41",
@@ -757,10 +673,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "You have felt a lurking presence following you since your discovery of the strange biomeld corpses. It generally stays out of sight, so you are going to have to confront it to figure out what it wants.",
     "mission_locations": [],
     "mission_objective": "Clear the Mysterious Verdessian with [progress]",
@@ -783,10 +695,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Search for signs of reclaimers to figure out how many are present in the Valley.",
     "mission_locations": [],
     "mission_objective": "Clear a Reclaimer Seeker: [Campaign Log Entry] 1.10",
@@ -814,10 +722,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Help Nal commune with the Verdessian.",
     "mission_locations": [
       "Tumbledown"
@@ -852,10 +756,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Travel into the reclaimer nest to study what they are doing in the Valley.",
     "mission_locations": [
       "Alluvial Ruins"
@@ -885,10 +785,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "With the reclaimers gone from the Valley, you can return to helping the inhabitants.",
     "mission_locations": [],
     "mission_objective": null,
@@ -911,10 +807,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Wash away the reclaimers with Aell's flood.",
     "mission_locations": [],
     "mission_objective": "Have 2+R [progress] on this mission: [Campaign Log Entry] 1.23",
@@ -952,10 +844,6 @@
     "harm_threshold": -1,
     "progress_threshold": -1,
     "enters_play": null,
-    "enters_play_with": {
-      "type": null,
-      "amount": 0
-    },
     "description": "Wait until you're certain enough Reclaimers have been lured, and then escape!",
     "mission_locations": [],
     "mission_objective": "Travel away while this mission is attached to the location: [Campaign Log Entry] 1.27",
