@@ -1,0 +1,337 @@
+[
+  {
+    "id": "forager-01-green-thumb",
+    "title": "Green Thumb",
+    "card_type": "attachment",
+    "set": "Forager",
+    "traits": [
+      "Skill",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Search the path deck and discard for a flora and put it into play with this skill attached."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Increase the attached flora's [harm] threshold by 2."
+      }
+    ]
+  },
+  {
+    "id": "forager-02-local-fare",
+    "title": "Local Fare",
+    "card_type": "moment",
+    "set": "Forager",
+    "traits": [
+      "Experience",
+      "Nature"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger performs a test, they may add 1 [harm] to a flora to dodge each being in the same area as that flora."
+      }
+    ]
+  },
+  {
+    "id": "forager-03-puffercrawler-spores",
+    "title": "Puffercrawler Spores",
+    "card_type": "attachment",
+    "set": "Forager",
+    "traits": [
+      "Nature"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to any Ranger's equipped gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you add [harm] to a being with the attached gear, exhaust that being, and attach this card to it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "The attached being gains the flora trait."
+      }
+    ]
+  },
+  {
+    "id": "forager-04-familiar-ground",
+    "title": "Familiar Ground",
+    "card_type": "moment",
+    "set": "Forager",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Add 1 [harm] to a flora to add 3 [progress] to a trail."
+      }
+    ]
+  },
+  {
+    "id": "forager-05-carbonforged-trowel",
+    "title": "Carbonforged Trowel",
+    "card_type": "gear",
+    "set": "Forager",
+    "traits": [
+      "Tool",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [reason]: Tend to the local plants to add or discard [harm] from a flora equal to your effort."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [conflict]: Strike [2] out with your gardening tool to add 1 [harm] to a being for every 2 effort. If you fail, suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "forager-06-secret-garden",
+    "title": "Secret Garden",
+    "card_type": "attachment",
+    "set": "Forager",
+    "traits": [
+      "Nature"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a feature."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attached feature gains the flora trait."
+      }
+    ]
+  },
+  {
+    "id": "forager-07-loose-leaf-tea-kit",
+    "title": "Loose-leaf Tea Kit",
+    "card_type": "gear",
+    "set": "Forager",
+    "traits": [
+      "Food"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "herb",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you add 1 or more [harm] to a flora, you may add 1 herb to this gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 herb): Choose a Ranger. That Ranger gains 1 energy of any type."
+      }
+    ]
+  },
+  {
+    "id": "forager-08-natures-abundance",
+    "title": "Nature's Abundance",
+    "card_type": "moment",
+    "set": "Forager",
+    "traits": [
+      "Experience",
+      "Nature"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Each Ranger may add 1 [harm] to a flora to soothe 1 fatigue and gain 1 energy of any type. When [harm] is added to a flora in this way, it may not exceed the flora's [harm] threshold."
+      }
+    ]
+  },
+  {
+    "id": "forager-09-static-sifter",
+    "title": "Static Sifter",
+    "card_type": "gear",
+    "set": "Forager",
+    "traits": [
+      "Tool",
+      "Food"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "vittle",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you add 1 or more [harm] to a flora, you may add 1 vittle to this gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 vittle): Choose a Ranger. That Ranger soothes 2 fatigue."
+      }
+    ],
+    "flavor_text": "When held near a fruit-bearing plant, the sifter comes to life, crackling with energy as it attracts the plant's ripened bounty."
+  }
+]
