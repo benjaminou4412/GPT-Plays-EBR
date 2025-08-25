@@ -1,0 +1,338 @@
+[
+  {
+    "id": "artisan-01-the-right-tool",
+    "title": "The Right Tool",
+    "card_type": "moment",
+    "set": "Artisan",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose a Ranger. That Ranger may discard one of their equipped gear to search their Ranger deck for a gear and equip it without paying its energy cost."
+      }
+    ],
+    "flavor_text": "Your mother taught you how to work with a great number of tools, and from her you gained an intimate knowledge of their function and practical application."
+  },
+  {
+    "id": "artisan-02-pocketed-belt-pouch",
+    "title": "Pocketed Belt Pouch",
+    "card_type": "gear",
+    "set": "Artisan",
+    "traits": [
+      "Clothing"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "pocket",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Reduce the equip value of your gear by 1 (to a minimum of 1)."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason] (use 1 pocket): Open your belt pouch and reach inside to search your Ranger deck for a gear and add it to your hand."
+      }
+    ]
+  },
+  {
+    "id": "artisan-03-the-mother-of-invention",
+    "title": "The Mother of Invention",
+    "card_type": "moment",
+    "set": "Artisan",
+    "traits": [
+      "Wisdom"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 0,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose an attachment in a Ranger's discard. That Ranger may immediately play that attachment as if it were in their hand."
+      }
+    ],
+    "flavor_text": "You know that inspiration does not simply come when called. When it strikes, you must act."
+  },
+  {
+    "id": "artisan-04-moment-of-desperation",
+    "title": "Moment of Desperation",
+    "card_type": "moment",
+    "set": "Artisan",
+    "traits": [
+      "Experience",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Discard one of your equipped gear to add harm to a being equal to the number of tokens on the discarded gear."
+      }
+    ],
+    "flavor_text": "You'll never forget the look on your brother's face when he saw that raccoon out of the corner of his eye, believing it was a bearsloth. You also remember the raccoon, struck by a belt pouch, yet unperturbed."
+  },
+  {
+    "id": "artisan-05-masterwork",
+    "title": "Masterwork",
+    "card_type": "attachment",
+    "set": "Artisan",
+    "traits": [
+      "Mod",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      },
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a Ranger's equipped gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger performs a test from the attached gear, commit 1 effort."
+      }
+    ],
+    "flavor_text": "During your apprenticeship at the carbon forge, you learned much from Elder Orlin."
+  },
+  {
+    "id": "artisan-06-universal-power-cells",
+    "title": "Universal Power Cells",
+    "card_type": "attachment",
+    "set": "Artisan",
+    "traits": [
+      "Mod",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a Ranger's equipped tech."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you play this attachment, add 3 tokens to the attached gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When this card becomes unattached, discard 3 tokens from the attached gear."
+      }
+    ]
+  },
+  {
+    "id": "artisan-07-functional-replica",
+    "title": "Functional Replica",
+    "card_type": "gear",
+    "set": "Artisan",
+    "traits": [
+      "Tool",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 charge): Choose a Ranger's equipped gear. Resolve the chosen gear's effect as if you had used a token from it and/or exhausted it."
+      }
+    ],
+    "flavor_text": "So you would discover the artistry in even the simplest of objects, your mentor encouraged you to mimic the work of master craftspeople."
+  },
+  {
+    "id": "artisan-08-favorite-gear",
+    "title": "Favorite Gear",
+    "card_type": "attachment",
+    "set": "Artisan",
+    "traits": [
+      "Mod"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to one of your equipped gear."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you use a token from the attached gear, soothe 1 fatigue."
+      }
+    ],
+    "flavor_text": "When you are at work, you are at peace, and when you work with your favorite gear, you are filled with a deep sense of purpose, fully in the moment and alive."
+  },
+  {
+    "id": "artisan-09-energized-hiking-greaves",
+    "title": "Energized Hiking Greaves",
+    "card_type": "gear",
+    "set": "Artisan",
+    "traits": [
+      "Tech",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "buffer",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Use X buffers: When you perform a test, suffer X fewer fatigue from each card between you and the card with which you are interacting."
+      }
+    ],
+    "flavor_text": "You crafted these hiking greaves from dollowood bark, overlaid them with a veneer of forged carbon, then applied a kinesthetic lining as the finishing touch."
+  }
+]
