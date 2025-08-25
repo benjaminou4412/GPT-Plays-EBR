@@ -589,5 +589,116 @@
         "text": "AWA + [reason]: Study [3] the archaeological records. [Campaign Log Entry] 34.1"
       }
     ]
+  },
+  {
+    "id": "location-37-tumbledown",
+    "title": "Tumbledown",
+    "card_type": "Location",
+    "traits": [
+      "Pivotal",
+      "Mountain",
+      "Water",
+      "Trail"
+    ],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Explore the cliffside community to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ]
+  },
+  {
+    "id": "location-36-watchers-rock",
+    "title": "Watcher's Rock",
+    "card_type": "Location",
+    "traits": [
+      "Mountain",
+      "Trail"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [conflict]: Watch [3] for approaching threats to shuffle each predator in play into the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-35-bowl-of-the-sun",
+    "title": "Bowl of the Sun",
+    "card_type": "Location",
+    "traits": [
+      "Mountain",
+      "Trail"
+    ],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection]: Meditate in the cultivated garden to soothe fatigue equal to your effort."
+      }
+    ]
+  },
+  {
+    "id": "location-34-alluvial-ruins",
+    "title": "Alluvial Ruins",
+    "card_type": "Location",
+    "traits": [
+      "Ruin",
+      "Trail"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If you are interacting with a water feature, you see something from upriver. >> Place the top card of the detritus deck on top of the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-33-sunken-outpost",
+    "title": "Sunken Outpost",
+    "card_type": "Location",
+    "traits": [
+      "Water",
+      "Ruin"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "X",
+    "enters_play_with": {
+      "type": "water",
+      "amount": "2R"
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the amount of water on this location."
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [reason]: Divert the deepening water to discard water equal to your effort."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1 water to this location."
+      }
+    ]
   }
 ]
