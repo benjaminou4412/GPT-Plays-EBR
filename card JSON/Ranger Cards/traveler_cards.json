@@ -1,0 +1,328 @@
+[
+  {
+    "id": "traveler-01-eagle-eye",
+    "title": "Eagle Eye",
+    "card_type": "moment",
+    "set": "Traveler",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Scout 3 path cards, then draw 1 path card."
+      }
+    ],
+    "flavor_text": "When you were young, you and your father would climb the Mound of the Navigator and look over the Valley. From that high vantage, he taught you to see the subtlest movements and minute detail of the flora and fauna far below."
+  },
+  {
+    "id": "traveler-02-paths-weve-roamed-before",
+    "title": "Paths We've Roamed Before",
+    "card_type": "moment",
+    "set": "Traveler",
+    "traits": [
+      "Experience"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose up to 4 total moments or attributes from any number of Ranger discards. Place the chosen cards facedown on the top of their Ranger's fatigue stack."
+      }
+    ],
+    "flavor_text": "As you walk the Valley, you recall the wisdom gained during the seasonal wanderings of your youth."
+  },
+  {
+    "id": "traveler-03-strider",
+    "title": "Strider",
+    "card_type": "attribute",
+    "set": "Traveler",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": null,
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 3
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "You can only commit this attribute when interacting with a trail."
+      }
+    ],
+    "flavor_text": "From the day you took your first steps, you haven't stopped moving. Your heart yearns to scale distant peaks and wander untrodden vistas. You continually look toward the horizon, never content to sit still."
+  },
+  {
+    "id": "traveler-04-trail-mix",
+    "title": "Trail Mix",
+    "card_type": "gear",
+    "set": "Traveler",
+    "traits": [
+      "Food",
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "morsel",
+      "amount": 2
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 morsel): Choose a Ranger. That Ranger soothes fatigue equal to the number of FIT in their energy pool."
+      }
+    ],
+    "flavor_text": "It's a delicious medley of cherry moss pemmican, marbled great beans, starpeas, almonds, and a few surprises."
+  },
+  {
+    "id": "traveler-05-perfect-recall",
+    "title": "Perfect Recall",
+    "card_type": "moment",
+    "set": "Traveler",
+    "traits": [
+      "Skill"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": "X",
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "enters_play": null,
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Play a moment from your discard pile without paying its energy cost (X is equal to the chosen moment's cost)."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "This card can be played at the time specified on the chosen moment."
+      }
+    ]
+  },
+  {
+    "id": "traveler-06-reverb-locket",
+    "title": "Reverb Locket",
+    "card_type": "gear",
+    "set": "Traveler",
+    "traits": [
+      "Tech",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "echo",
+      "amount": 2
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you equip this gear, attach a moment to it from your hand."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 echo): Play the attached moment as if it were in your hand. It remains attached to this gear instead of being discarded."
+      }
+    ]
+  },
+  {
+    "id": "traveler-07-adaptable-multitool",
+    "title": "Adaptable Multitool",
+    "card_type": "gear",
+    "set": "Traveler",
+    "traits": [
+      "Tool",
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 2,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "charge",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use 1 charge): Spend 1 energy to gain 1 energy of any type."
+      }
+    ],
+    "flavor_text": "There's no better companion than a memlev multitool. It's like having an artificer's workshop in the palm of your hand, but not nearly as heavy."
+  },
+  {
+    "id": "traveler-08-ironwool-boots",
+    "title": "Ironwool Boots",
+    "card_type": "gear",
+    "set": "Traveler",
+    "traits": [
+      "Clothing"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Unique."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you play a moment, soothe 1 fatigue."
+      }
+    ],
+    "flavor_text": "Your mother taught you many things as you walked by her side, trekking across the Valley and back, but of all her teachings, none were more useful than this: always wear comfortable shoes."
+  },
+  {
+    "id": "traveler-09-meditation-pillow",
+    "title": "Meditation Pillow",
+    "card_type": "gear",
+    "set": "Traveler",
+    "traits": [
+      "Aid"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 1,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "session",
+      "amount": 3
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection] (use 1 session): Meditate on your journey to shuffle a number of cards from your fatigue stack into your Ranger deck equal to your effort."
+      }
+    ],
+    "flavor_text": "You feel that quiet meditation is essential to daily life, and that the ability to enjoy moments of stillness is paramount to one's well-being."
+  }
+]
