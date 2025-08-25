@@ -136,5 +136,458 @@
         "text": "AWA + [connection]: Search the shores beside the towering parasols of White Sky to scout path cards equal to your effort, then draw 1 path card."
       }
     ]
+  },
+  {
+    "id": "location-16-the-furrow",
+    "title": "The Furrow",
+    "card_type": "Location",
+    "traits": ["Mountain", "Trail"],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you perform a Traverse test that interacts with this location, reduce the [progress] added by 1."
+      }
+    ]
+  },
+  {
+    "id": "location-15-branch",
+    "title": "Branch",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Forest", "Trail", "Ascent"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Search the treetop settlement to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ]
+  },
+  {
+    "id": "location-14-the-high-basin",
+    "title": "The High Basin",
+    "card_type": "Location",
+    "traits": ["Forest", "Water", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [connection]: Swim in the crystal-clear waters of the high lake to soothe fatigue equal to your effort."
+      }
+    ]
+  },
+  {
+    "id": "location-13-the-philosophers-garden",
+    "title": "The Philosophers' Garden",
+    "card_type": "Location",
+    "traits": ["Forest", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: Flip 1 path card facedown. It keeps any attachments. Treat facedown cards as features with the obstacle keyword and a presence of 1. They gain the following test:"
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Identify the true nature of the manifestation before you to flip this card faceup."
+      }
+    ]
+  },
+  {
+    "id": "location-12-the-fractured-wall",
+    "title": "The Fractured Wall",
+    "card_type": "Location",
+    "traits": [
+      "Pivotal",
+      "Ruin",
+      "Water",
+      "Ascent"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "[Ranger Token]",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [exploration]: Chart [4] a course up the sundered ruin to move your [Ranger Token] to this location. You may discard up to 2 [progress] from this location to commit an equal amount of effort."
+      },
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Ready the feature with the highest presence."
+      }
+    ]
+  },
+  {
+    "id": "location-11-stoneweaver-bridge",
+    "title": "Stoneweaver Bridge",
+    "card_type": "Location",
+    "traits": ["Water", "Trail"],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Refresh: You may choose a path card to remain exhausted."
+      }
+    ]
+  },
+  {
+    "id": "location-10-kobos-market",
+    "title": "Kobo's Market",
+    "card_type": "Location",
+    "traits": ["Water", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection]: Haggle [3] with the vendors of the market to return a gear from your hand to your collection. Choose a starting gear from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)"
+      }
+    ]
+  },
+  {
+    "id": "location-09-spire",
+    "title": "Spire",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [exploration]: Enter [2] the bustling town of Spire to move your [Ranger Token] to this location and draw 1 card from the Spire deck."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you would draw 1 path card, if your [Ranger Token] is on this location and there are cards remaining in the Spire deck, you may draw 1 card from the Spire deck instead."
+      }
+    ]
+  },
+  {
+    "id": "location-24-rings-of-the-moon",
+    "title": "Rings of the Moon",
+    "card_type": "Location",
+    "traits": ["Ruin"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [exploration]: Peer [3] through the ancient guideposts to search the Valley set for a feature and shuffle it into the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-23-crossroads-station",
+    "title": "Crossroads Station",
+    "card_type": "Location",
+    "traits": ["Trail", "Ranger Station"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [connection]: Describe who you're looking for to the villagers at the station to search the Valley set for a human and shuffle them into the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-22-the-concordant-ziggurats",
+    "title": "The Concordant Ziggurats",
+    "card_type": "Location",
+    "traits": ["Ruin"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "[Ranger Token]",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Avoid [3] the unnerving energy emitting from the ziggurats to move your [Ranger Token] to this location. You may discard up to 2 [progress] from this location to commit an equal amount of effort."
+      }
+    ]
+  },
+  {
+    "id": "location-21-meadow",
+    "title": "Meadow",
+    "card_type": "Location",
+    "traits": ["Pivotal", "Field", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [connection]: Search the pastoral community to scout path cards equal to your effort, then draw 1 path card."
+      }
+    ]
+  },
+  {
+    "id": "location-20-headwaters-station",
+    "title": "Headwaters Station",
+    "card_type": "Location",
+    "traits": ["Water", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FIT + [connection]: Dive [2] into the healing waters to heal all of your injuries and soothe all of your fatigue. You may discard any number of [progress] from this location to commit an equal amount of effort. If your resulting effort is 8 or more: [Campaign Log Entry] 23.1"
+      }
+    ]
+  },
+  {
+    "id": "location-19-greenbriar-knoll",
+    "title": "Greenbriar Knoll",
+    "card_type": "Location",
+    "traits": ["Field", "Ruin", "Trail"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Scout 1 challenge card. If it has a [crest] icon, troubling visions fill your mind. >> Suffer 2 fatigue."
+      }
+    ]
+  },
+  {
+    "id": "location-18-the-plummet",
+    "title": "The Plummet",
+    "card_type": "Location",
+    "traits": ["Mountain", "Ascent"],
+    "presence": 3,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "SPI + [reason]: Brace [3] yourself for a ride on the spiderline system to move your [Ranger Token] to this location."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you travel, if all [Ranger Tokens] are on this location, you may travel to a location up to two paths away. Use the terrain of the second path when building the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-17-biological-outpost",
+    "title": "Biological Outpost",
+    "card_type": "Location",
+    "traits": ["Forest", "Ranger Station"],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "If there is no active predator or prey, a nearby animal is drawn to the biologists' lures. >> Search the path deck for the next predator or prey and put it into play."
+      }
+    ]
+  },
+  {
+    "id": "location-32-marsh-of-rebirth",
+    "title": "Marsh of Rebirth",
+    "card_type": "Location",
+    "traits": [
+      "Pivotal",
+      "Water"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you travel, travel to any location connected to a swamp path. Use the swamp terrain when building the path deck."
+      }
+    ]
+  },
+  {
+    "id": "location-31-the-frowning-gate",
+    "title": "The Frowning Gate",
+    "card_type": "Location",
+    "traits": [
+      "Water",
+      "Trail"
+    ],
+    "presence": 3,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Remove 1 [progress] from a path card. If you cannot, suffer 1 injury."
+      }
+    ]
+  },
+  {
+    "id": "location-30-the-cypress-citadel",
+    "title": "The Cypress Citadel",
+    "card_type": "Location",
+    "traits": [
+      "Forest",
+      "Water"
+    ],
+    "presence": 3,
+    "harm_threshold": -1,
+    "progress_threshold": "5R",
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "sun",
+        "text": "Ready a path card."
+      }
+    ]
+  },
+  {
+    "id": "location-29-michaels-bog",
+    "title": "Michael's Bog",
+    "card_type": "Location",
+    "traits": [
+      "Water"
+    ],
+    "presence": 3,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "enters_play_with": {
+      "type": "toxins",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "mountain",
+        "text": "Add 1 toxin. If there are more toxins than rangers, swamp gas fills the air. >> Discard all toxins and add an equal number of [harm] to a being."
+      }
+    ]
+  },
+  {
+    "id": "location-28-the-greenbridge",
+    "title": "The Greenbridge",
+    "card_type": "Location",
+    "traits": [
+      "Water",
+      "Trail"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "3R",
+    "enters_play_with": {
+      "type": "struts",
+      "amount": 4
+    },
+    "rules": [
+      {
+        "kind": "challenge",
+        "challenge_symbol": "crest",
+        "text": "Discard 1 strut. If there are no struts on this location, your section collapses. >> Each Ranger suffers 1 injury. Proceed to the travel phase and travel to the Cypress Citadel."
+      }
+    ]
+  },
+  {
+    "id": "location-27-terravore",
+    "title": "Terravore",
+    "card_type": "Location",
+    "traits": [
+      "Biomeld"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "When you perform a test that interacts with the attached feature, reduce your effort by 1."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When the attached feature is cleared you continue into the depths of Terravore: [Campaign Log Entry] 28.1"
+      }
+    ]
+  },
+  {
+    "id": "location-26-mound-of-the-navigator",
+    "title": "Mound of the Navigator",
+    "card_type": "Location",
+    "traits": [
+      "Mountain",
+      "Trail"
+    ],
+    "presence": 2,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "enters_play_with": {
+      "type": "routes",
+      "amount": 0
+    },
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "FOC + [exploration]: Analyze [2] the paths ahead to add 1 route to this location."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you travel, add 2 [progress] to your destination for each route on this location."
+      }
+    ]
+  },
+  {
+    "id": "location-25-archaeological-outpost",
+    "title": "Archaeological Outpost",
+    "card_type": "Location",
+    "traits": [
+      "Trail",
+      "Ranger Station"
+    ],
+    "presence": 1,
+    "harm_threshold": -1,
+    "progress_threshold": "4R",
+    "rules": [
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [reason]: Study [3] the archaeological records. [Campaign Log Entry] 34.1"
+      }
+    ]
   }
 ]
