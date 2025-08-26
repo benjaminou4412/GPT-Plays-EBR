@@ -1,0 +1,540 @@
+[
+  {
+    "id": "shaper-01-adherent-of-the-first-ideal",
+    "title": "Adherent of the First Ideal",
+    "card_type": "role",
+    "set": "Shaper",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Scout 1 challenge card."
+      }
+    ]
+  },
+  {
+    "id": "shaper-02-prodigy-of-the-floating-tower",
+    "title": "Prodigy of the Floating Tower",
+    "card_type": "role",
+    "set": "Shaper",
+    "traits": [],
+    "enters_play": "player area",
+    "approach_icons": [],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust: Choose a manifestation in your discard, and add it to your hand."
+      }
+    ]
+  },
+  {
+    "id": "shaper-03-root-snare",
+    "title": "Root Snare",
+    "card_type": "attachment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation",
+      "Nature"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a feature, and add 2 [progress] to it."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger performs a test, they may discard 1 or more [progress] from the attached feature to dodge an equal number of cards in the same area."
+      }
+    ]
+  },
+  {
+    "id": "shaper-04-sky-whip",
+    "title": "Sky Whip",
+    "card_type": "moment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation",
+      "Weapon"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 0,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation. (To play a manifestation, use 1 token from a conduit.)"
+      },
+      {
+        "kind": "test",
+        "challenge_symbol": null,
+        "text": "AWA + [conflict]: Strike with a whirling coil of wind and water to add [harm] to a being equal to your effort. Then exhaust that being."
+      }
+    ]
+  },
+  {
+    "id": "shaper-05-stave-of-the-sun",
+    "title": "Stave of the Sun",
+    "card_type": "gear",
+    "set": "Shaper",
+    "traits": [
+      "Conduit",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "AWA"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "glint",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Conduit. Setup."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After the challenge deck is shuffled, add 1 glint to this conduit."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use X glints): Scout X path cards."
+      }
+    ]
+  },
+  {
+    "id": "shaper-06-what-should-never-be",
+    "title": "What Should Never Be",
+    "card_type": "moment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When drawing challenge cards during a test, draw and discard challenge cards until you draw one with a +1 in the used aspect. Use that challenge card for this test, and suffer fatigue equal to the number of cards discarded this way."
+      }
+    ]
+  },
+  {
+    "id": "shaper-07-shape-the-earth",
+    "title": "Shape the Earth",
+    "card_type": "moment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation. (To play a manifestation, use 1 token from a conduit.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Add 1 [progress] to each feature and location. Then you may redistribute any number of [progress] between them."
+      }
+    ]
+  },
+  {
+    "id": "shaper-08-staff-of-the-wanderer",
+    "title": "Staff of the Wanderer",
+    "card_type": "gear",
+    "set": "Shaper",
+    "traits": [
+      "Conduit",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FIT"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "stride",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Conduit. Setup."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you succeed at a Traverse test, add 1 stride to this conduit."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use X strides): Add X [progress] to a trail."
+      }
+    ]
+  },
+  {
+    "id": "shaper-09-throng-of-life",
+    "title": "Throng of Life",
+    "card_type": "moment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation. (To play a manifestation, use 1 token from a conduit.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When a Ranger draws a challenge card during a test, choose which modifier to use from that card. Then choose an additional challenge icon to resolve for this test."
+      }
+    ]
+  },
+  {
+    "id": "shaper-10-novice-lens",
+    "title": "Novice Lens",
+    "card_type": "gear",
+    "set": "Shaper",
+    "traits": [
+      "Tech"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you perform a test in which you committed 1 or more manifestations, gain 1 FOC."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: When you rest, if you have 1 or more FOC in your energy pool, scout 1 challenge card."
+      }
+    ]
+  },
+  {
+    "id": "shaper-11-rod-of-the-clouds",
+    "title": "Rod of the Clouds",
+    "card_type": "gear",
+    "set": "Shaper",
+    "traits": [
+      "Conduit",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "FOC"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 2
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "vision",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Conduit. Setup."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: Before you draw a challenge card, name a challenge icon; if that icon is on the drawn card, add 1 vision to this conduit."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use X visions): Scout X Ranger cards."
+      }
+    ]
+  },
+  {
+    "id": "shaper-12-harmonize",
+    "title": "Harmonize",
+    "card_type": "attachment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 1
+    },
+    "energy_cost": {
+      "amount": 1,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Attach to a being within reach of any Ranger."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After a challenge effect on the attached being resolves, the Ranger that played this card gains 1 energy of any type."
+      }
+    ]
+  },
+  {
+    "id": "shaper-13-seen-through-cycles",
+    "title": "Seen Through Cycles",
+    "card_type": "moment",
+    "set": "Shaper",
+    "traits": [
+      "Manifestation"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 2
+    },
+    "energy_cost": {
+      "amount": 2,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Reason",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Manifestation. (To play a manifestation, use 1 token from a conduit.)"
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Choose a being in play, and shuffle it into the path deck. Then search the path deck and discard for a being and put it into play."
+      }
+    ]
+  },
+  {
+    "id": "shaper-14-scepter-of-harmony",
+    "title": "Scepter of Harmony",
+    "card_type": "gear",
+    "set": "Shaper",
+    "traits": [
+      "Conduit",
+      "Expert"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "min": 3
+    },
+    "energy_cost": {
+      "amount": 3,
+      "aspect": "SPI"
+    },
+    "approach_icons": [
+      {
+        "approach": "Reason",
+        "count": 1
+      },
+      {
+        "approach": "Connection",
+        "count": 1
+      },
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "equip_value": 0,
+    "enters_play": "player area",
+    "enters_play_with": {
+      "type": "song",
+      "amount": 1
+    },
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Conduit. Setup."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Response: After you perform a test in which no challenge effects were resolved, add 1 song to this conduit."
+      },
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Exhaust (use X songs): Add X [progress] to a being."
+      }
+    ]
+  }
+]

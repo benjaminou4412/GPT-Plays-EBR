@@ -53,7 +53,7 @@ ENERGY, ASPECTS, AND YOUR HAND
 
 SETUP (ONCE PER DAY, IN ORDER)
 1) Set player areas: place Aspect, Role, and Common Tests reference; shuffle your Ranger deck; take energy tokens equal to your printed aspect values onto your Aspect card. You may search your deck for one “Setup” card and put it into play.
-2) Draw starting hand: six cards; you may mulligan per rulebook.
+2) Draw starting hand: six cards; you may mulligan once by setting aside any number of cards, drawing back up to six, and shuffling the set-aside cards back into your deck.
 3) Elect the Lead Ranger: they draw the first path card each round and break ties on group decisions.
 4) Shuffle the Challenge deck; place it near the surroundings.
 5) Place the current Location in the surroundings (continue a campaign by reading the tracker’s “current location”). 
@@ -189,7 +189,7 @@ KEYWORDS & TERMS (NON-EXHAUSTIVE; SEE CARDS)
 END OF THE DAY — HOW A DAY ENDS
 - You cannot draw during Refresh → end the day.
 - You suffer your third [INJURY] → end the day after your current turn (then add a Lingering Injury if available).
-- A rule instructs you to end the day (e.g., mission text, campaign entry, or specific card effects). The most common version of this is if a Human from the path deck is cleared by harm.
+- A rule instructs you to end the day (e.g., mission text, campaign entry, or specific card effects). The most common case for this is if a Human from the path deck is cleared by harm.
 - Group may also choose to end the day as allowed by campaign rules (e.g., camping at a new location).
 
 
@@ -203,35 +203,5 @@ MISSIONS
 - Some missions, particularly "Helping Hand", explicitly instruct you to not record them. As such, these missions are limited-time opportunities, and will expire at the end of the day.
 - While missions provide you goals to pursue, they are not explicitly "required", even the ones with the Story trait that represent the campaign's main story. However, ignoring your missions will have consequences, potentially both mechanically and for the story of your Ranger.
 
-LLM PLAY PROTOCOL (HOW TO DRIVE THE GAME AS AN LLM)
-1) Maintain state explicitly: zones, each card with (area, ready/exhausted, presence, thresholds, tokens), each Ranger’s (hand, deck size, discard size, fatigue stack size, energy pool by aspect, injuries, role ready/exhausted, ranger token location).
-2) On each Round:
-   a) Phase 1 Path Cards: draw/resolve for each Ranger; place cards by arrow; read campaign entries when indicated.
-   b) Phase 2 Ranger Turns: loop turns until all Rangers have chosen Rest or travel will be chosen in Phase 3.
-       - For the active Ranger: present all legal tests and play options from cards in play and hand.
-       - If taking a test: perform steps 1–5 above; update tokens/state and trigger challenge effects in order.
-       - Offer Rest when useful; once a Ranger Rests, they cannot take another turn this round.
-       - Enforce “no back-to-back turns” unless role is exhausted to take a second one.
-   c) Phase 3 Travel: if legal and chosen/required, perform Travel steps 1–5.
-   d) Phase 4 Refresh: process injury fatigue, draw, energy refill, refresh triggers, ready all.
-3) Always enforce: Golden Rule, timing windows, challenge effect order, interaction fatigue, and “active” definition.
-4) When rules conflict or an infinite loop appears, apply the official FAQ guidance: stop the loop and resolve as much as possible once, then move on.
-
-COVERAGE CHECKLIST (WHERE TO FIND THINGS IN THIS GUIDE)
-- Setup steps → “SETUP”
-- Round phases → “ROUND STRUCTURE”
-- Test steps → “PERFORMING A TEST”
-- Challenge effects & order → “CHALLENGE DECK DETAILS” and “AREAS & ‘ACTIVE’…”
-- Interacting/fatigue → “INTERACTING, FATIGUE, SOOTHE, INJURY”
-- Clearing cards/thresholds → “CLEARING CARDS & THRESHOLDS”
-- Travel rules → “TRAVEL”
-- Ending the Day → “END OF THE DAY”
-- Keywords & special cases → “KEYWORDS & TERMS”
-
-APPENDIX — SYMBOL LEXICON (COPY/PASTE)
-[CONFLICT] [REASON] [EXPLORATION] [CONNECTION]
-[EN-AWA] [EN-FIT] [EN-FOC] [EN-SPI]
-[progress] [harm] [POWER] [INJURY]
-[CREST] [MOUNTAIN] [SUN] [RESHUFFLE]
 
 

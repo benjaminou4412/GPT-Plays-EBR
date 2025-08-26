@@ -1,0 +1,402 @@
+[
+  {
+  "id": "personality-01-insightful",
+  "title": "Insightful",
+  "card_type": "attribute",
+  "set": "Personality",
+  "traits": [
+    "Innate"
+  ],
+  "aspect_requirement": { 
+    "aspect": "AWA", 
+    "min": 1 
+  },
+  "approach_icons": [
+    { 
+    "approach": "Reason", 
+    "count": 1 
+    }
+  ],
+  "rules": [
+    {
+      "kind": "static",
+      "challenge_symbol": null,
+      "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to add it back into your hand."
+    }
+  ],
+  "flavor_text": "From a place beyond your perception, the thought arrives, and you feel a sense of peace in clarity, sure of the best path forward."
+  },
+  {
+    "id": "personality-02-vigilant",
+    "title": "Vigilant",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": "X"
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of AWA in your energy pool."
+      }
+    ],
+    "flavor_text": "Your senses heighten and you become aware of every movement and every sound. Time itself seems to slow as you toil unremittingly at your task."
+  },
+  {
+    "id": "personality-03-perceptive",
+    "title": "Perceptive",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 1
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After you succeed at a test in which you committed this attribute, gain 1 AWA."
+      }
+    ],
+    "flavor_text": "The world comes to life as you perceive every detail of your surroundings: the gentle sway of grass in the bloom-scented breeze, the melodic buzz of insects in the forest, and the reflected light of the sun as it gives shape to all within your vision."
+  },
+  {
+    "id": "personality-04-thorough",
+    "title": "Thorough",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "AWA",
+      "min": 2
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 2
+      }
+    ],
+    "rules": [],
+    "flavor_text": "As you put your mind to your task, your every movement carries meaning, and each step is made with care and intention. No detail escapes your notice. You've accounted for every outcome and planned contingencies should you fall short of your visualized result."
+  },
+  {
+    "id": "personality-05-passionate",
+    "title": "Passionate",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "approach_icons": [
+      {
+        "approach": "Connection",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to add it back into your hand."
+      }
+    ],
+    "flavor_text": "You are gifted with an unquenchable fire that burns within. While at times it lies dormant, the proper tinder can coax it to life, and in those moments, you shine brightly on all those around you."
+  },
+  {
+    "id": "personality-06-balanced",
+    "title": "Balanced",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "approach_icons": [
+      {
+        "approach": "Conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to gain 1 energy of any type."
+      }
+    ],
+    "flavor_text": "As you move in rhythm with your surroundings, your mind clears, refreshed by deep breaths of sweet air and the resonant beating of your heart."
+  },
+  {
+    "id": "personality-07-determined",
+    "title": "Determined",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 1
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": "X"
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of FIT in your energy pool."
+      }
+    ],
+    "flavor_text": "Your goal in sight, you draw upon a deep well of inner strength. Your limbs surge with energy, and you know with certainty that there is nothing you cannot accomplish."
+  },
+  {
+    "id": "personality-08-bold",
+    "title": "Bold",
+    "card_type": "attribute",
+    "set": "Personality",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FIT",
+      "min": 2
+    },
+    "approach_icons": [
+      {
+        "approach": "Exploration",
+        "count": 2
+      }
+    ],
+    "rules": [],
+    "flavor_text": "In your many years of experience, you've found the chattering mind to be the greatest obstacle to achieving one's goals. While some overcomplicate the world with indecision and doubt, you simply act and find success."
+  },
+  {
+    "title": "Meticulous",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "Exploration",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to add it back into your hand."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "You take tremendous joy in exploring the fine details of a task. To you, there is no action worth taking that cannot be seen through to perfection."
+  },
+  {
+    "title": "Versatile",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "connection",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "Before you commit this attribute, you may suffer 1 fatigue. If you do, this attribute gains [exploration] [reason] [conflict]."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "Ever since you were young you've found that no skill lies outside of your understanding. As a result, you're not afraid to try anything at least once."
+  },
+  {
+    "title": "Inventive",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "reason",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of FOC in your energy pool."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "While the minds of others may find comfort in following traditional paths, yours is at its best when it breaks away, forging new routes through the wilderness of thought."
+  },
+  {
+    "title": "Astute",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "FOC",
+      "amount": 2
+    },
+    "approach_icons": [
+      {
+        "type": "reason",
+        "count": 2
+      }
+    ],
+    "rules": [],
+    "set": "Personality",
+    "flavor_text": "The problem takes shape in your mind like a multifaceted jewel, each vertex a possible solution. The swiftest gleams in the light of your attention, and soon the gem is but a single line, the edge of a razor, the way forward as undeniable and alluring as that sharpened blade."
+  },
+  {
+    "title": "Persuasive",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "conflict",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to add it back into your hand."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "As you give voice to your intention, you do so from a place of love, so that there may be no misconstruing your desire for a specific outcome as anything other than a desire for peace and understanding."
+  },
+  {
+    "title": "Thoughtful",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "reason",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "You may commit this attribute to tests performed by any Ranger."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "You have the gift of being able to sense the needs of those around you. Instinctively, you lend a hand without being overbearing, your ego nowhere to be found."
+  },
+  {
+    "title": "Engaging",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "amount": 1
+    },
+    "approach_icons": [
+      {
+        "type": "connection",
+        "count": 1
+      }
+    ],
+    "rules": [
+      {
+        "kind": "static",
+        "challenge_symbol": null,
+        "text": "X is equal to the number of SPI in your energy pool."
+      }
+    ],
+    "set": "Personality",
+    "flavor_text": "As you fully inhabit yourself, you feel a oneness with the flow of life. Those around you are buoyed by the energy of your presence, inspired by your certainty, and happy to help in whatever way they can."
+  },
+  {
+    "title": "Compassionate",
+    "type": "attribute",
+    "traits": [
+      "Innate"
+    ],
+    "aspect_requirement": {
+      "aspect": "SPI",
+      "amount": 2
+    },
+    "approach_icons": [
+      {
+        "type": "connection",
+        "count": 2
+      }
+    ],
+    "rules": [],
+    "set": "Personality",
+    "flavor_text": "You open your heart and feel your consciousness settle into your chest. A great warmth spreads within you as you let fall any armor that may unnecessarily hinder this, the truest of connections, oneself laid bare to another."
+  }
+]

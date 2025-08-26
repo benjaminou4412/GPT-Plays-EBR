@@ -1,0 +1,670 @@
+//During Phase 3: Travel, you may travel to one of the locations adjacent to your current location if there is progress on your current location greater than its progress threshold (or, if its progress threshold is "Ranger Token", if all Rangers' Ranger Tokens are on the location).
+//You may not travel to a location with "River" terrain unless a card in play explicitly says you can.
+//In this file, locations adjacent to your current location are organized as a list named "adj".
+
+{
+  "meta": {
+    "title": "The Valley",
+    "note": "Transcribed from valley_map.png (higher‑resolution). Marsh of Rebirth intentionally has no connections.",
+    "terrain_legend": [
+      "Old-growth",
+      "Mountain Pass",
+      "Woods",
+      "Lakeshore",
+      "Grassland",
+      "Ravine",
+      "Swamp",
+      "River"
+    ],
+    "directed": false
+  },
+  "locations": {
+    "Northern Outpost": { 
+      "adj": [
+        {
+          "to": "Atrox Mountain",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Mount Nim",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Golden Shore",
+          "terrain": "Woods"
+        }
+      ]
+    },
+    "Atrox Mountain": { 
+      "adj": [
+        {
+          "to": "Lone Tree Station",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Golden Shore",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Northern Outpost",
+          "terrain": "Woods"
+        }
+      ]
+    },
+    "Mount Nim": { 
+      "adj": [
+        {
+          "to": "Northern Outpost",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Fractured Wall",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Golden Shore",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "White Sky",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "The Fractured Wall": { 
+      "adj": [
+        {
+          "to": "Mount Nim",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Furrow",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Philosopher's Garden",
+          "terrain": "Woods"
+        },
+        {
+          "to": "The High Basin",
+          "terrain": "Lakeshore"
+        }
+      ]
+    },
+    "Golden Shore": { 
+      "adj": [
+        {
+          "to": "Atrox Mountain",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Northern Outpost",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Mount Nim",
+          "terrain": "Lakeshore"
+        }
+      ]
+    },
+    "White Sky": { 
+      "adj": [
+        {
+          "to": "Lone Tree Station",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Spire",
+          "terrain": "River"
+        },
+        {
+          "to": "Boulder Field",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Mount Nim",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "Lone Tree Station": { 
+      "adj": [
+        {
+          "to": "Atrox Mountain",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Boulder Field",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Ancestor's Grove",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "White Sky",
+          "terrain": "Lakeshore"
+        }
+      ]
+    },
+    "Ancestor's Grove": { 
+      "adj": [
+        {
+          "to": "Lone Tree Station",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "Kobo's Market",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Boulder Field",
+          "terrain": "Woods"
+        },
+        {
+          "to": "The Plummet",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "Kobo's Market": { 
+      "adj": [
+        {
+          "to": "Ancestor's Grove",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Plummet",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Boulder Field",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Spire",
+          "terrain": "Lakeshore"
+        }
+      ]
+    },
+    "Headwaters Station": { 
+      "adj": [
+        {
+          "to": "The Concordant Ziggurats",
+          "terrain": "River"
+        }
+      ]
+    },
+    "The Plummet": { 
+      "adj": [
+        {
+          "to": "Ancestor's Grove",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Kobo's Market",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "The Concordant Ziggurats",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "Boulder Field": { 
+      "adj": [
+        {
+          "to": "White Sky",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Lone Tree Station",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Kobo's Market",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Ancestor's Grove",
+          "terrain": "Woods"
+        }
+      ]
+    },
+    "The Philosophers' Garden": { 
+      "adj": [
+        {
+          "to": "Spire",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "The Fractured Wall",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Branch",
+          "terrain": "Old-growth"
+        }
+      ]
+    },
+    "The High Basin": { 
+      "adj": [
+        {
+          "to": "The Fractured Wall",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Branch",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "The Furrow",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Biologist's Outpost",
+          "terrain": "River"
+        }
+      ]
+    },
+    "Crossroads Station": { 
+      "adj": [
+        {
+          "to": "Spire",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Branch",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "Biologist's Outpost",
+          "terrain": "Old-growth"
+        }
+      ]
+    },
+    "Spire": { 
+      "adj": [
+        {
+          "to": "White Sky",
+          "terrain": "River"
+        },
+        {
+          "to": "Kobo's Market",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Crossroads Station",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "The Philosophers' Garden",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "Greenbriar Knoll",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "River"
+        }
+      ]
+    },
+    "Greenbriar Knoll": { 
+      "adj": [
+        {
+          "to": "Spire",
+          "terrain": "Woods"
+        },
+        {
+          "to": "Meadow",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "Meadow": { 
+      "adj": [
+        {
+          "to": "Rings of the Moon",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "The Concordant Ziggurats",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Greenbriar Knoll",
+          "terrain": "Grassland"
+        }
+      ]
+    },
+    "Stoneweaver Bridge": { 
+      "adj": [
+        {
+          "to": "Meadow",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Mound of the Navigator",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Greenbriar Knoll",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Spire",
+          "terrain": "River"
+        },
+        {
+          "to": "Biologist's Outpost",
+          "terrain": "River"
+        },
+        {
+          "to": "Mound of the Navigator",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "Mound of the Navigator": { 
+      "adj": [
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "The Greenbridge",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "Terravore",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "Biologist's Outpost",
+          "terrain": "Woods"
+        }
+      ]
+    },
+    "Biologist's Outpost": { 
+      "adj": [
+        {
+          "to": "Crossroads Station",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "Mound of the Navigator",
+          "terrain": "Woods"
+        },
+        {
+          "to": "The High Basin",
+          "terrain": "River"
+        },
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "River"
+        }
+      ]
+    },
+    "Branch": { 
+      "adj": [
+        {
+          "to": "Crossroads Station",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "The Philosopher's Garden",
+          "terrain": "Old-growth"
+        },
+        {
+          "to": "The High Basin",
+          "terrain": "Old-growth"
+        }
+      ]
+    },
+    "The Furrow": { 
+      "adj": [
+        {
+          "to": "The Fractured Wall",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The High Basin",
+          "terrain": "Lakeshore"
+        },
+        {
+          "to": "Terravore",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "Terravore": { 
+      "adj": [
+        {
+          "to": "The Furrow",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Mound of the Navigator",
+          "terrain": "Old-growth"
+        }
+      ]
+    },
+    "The Greenbridge": { 
+      "adj": [
+        {
+          "to": "Mound of the Navigator",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "Sunken Outpost",
+          "terrain": "Swamp"
+        }
+      ]
+    },
+    "Michael's Bog": { 
+      "adj": [
+        {
+          "to": "Sunken Outpost",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "The Cypress Citadel",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "The Frowning Gate",
+          "terrain": "Swamp"
+        }
+      ]
+    },
+    "The Cypress Citadel": { 
+      "adj": [
+        {
+          "to": "Michael's Bog",
+          "terrain": "Swamp"
+        }
+      ]
+    },
+    "Sunken Outpost": { 
+      "adj": [
+        {
+          "to": "Michael's Bog",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "The Greenbridge",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "The Frowning Gate",
+          "terrain": "Swamp"
+        }
+      ]
+    },
+    "Marsh of Rebirth": { 
+      "adj": []
+    },
+    "The Frowning Gate": { 
+      "adj": [
+        {
+          "to": "Michael's Bog",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "Sunken Outpost",
+          "terrain": "Swamp"
+        },
+        {
+          "to": "Bowl of the Sun",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Alluvial Ruins",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "Bowl of the Sun": { 
+      "adj": [
+        {
+          "to": "The Frowning Gate",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "The Alluvial Ruins",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Tumbledown",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "Tumbledown": { 
+      "adj": [
+        {
+          "to": "The Alluvial Ruins",
+          "terrain": "River"
+        },
+        {
+          "to": "Watcher's Rock",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Bowl of the Sun",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "The Alluvial Ruins": { 
+      "adj": [
+        {
+          "to": "Rings of the Moon",
+          "terrain": "River"
+        },
+        {
+          "to": "Tumbledown",
+          "terrain": "River"
+        },
+        {
+          "to": "Stoneweaver Bridge",
+          "terrain": "River"
+        },
+        {
+          "to": "Bowl of the Sun",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "The Frowning Gate",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Archeological Outpost",
+          "terrain": "Mountain Pass"
+        }
+      ]
+    },
+    "Rings of the Moon": { 
+      "adj": [
+        {
+          "to": "Archeological Outpost",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "The Alluvial Ruins",
+          "terrain": "River"
+        },
+        {
+          "to": "Meadow",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "The Concordant Ziggurats",
+          "terrain": "River"
+        }
+      ]
+    },
+    "Archeological Outpost": { 
+      "adj": [
+        {
+          "to": "The Concordant Ziggurats",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Rings of the Moon",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "The Alluvial Ruins",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Watcher's Rock",
+          "terrain": "Ravine"
+        }
+      ]
+    },
+    "The Concordant Ziggurats": { 
+      "adj": [
+        {
+          "to": "Meadow",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "Archeological Outpost",
+          "terrain": "Grassland"
+        },
+        {
+          "to": "The Plummet",
+          "terrain": "Ravine"
+        },
+        {
+          "to": "Archeological Outpost",
+          "terrain": "Grassland"
+        }
+      ]
+    },
+    "Watcher's Rock": { 
+      "adj": [
+        {
+          "to": "Tumbledown",
+          "terrain": "Mountain Pass"
+        },
+        {
+          "to": "Archeological Outpost",
+          "terrain": "Ravine"
+        }
+      ]
+    }
+  }
+}
