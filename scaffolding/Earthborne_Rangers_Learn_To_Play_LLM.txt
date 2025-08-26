@@ -180,6 +180,7 @@ KEYWORDS & TERMS (NON-EXHAUSTIVE; SEE CARDS)
 - Conduit: When you have a card with the Conduit keyword equipped, you can play Manifestation cards by using (discarding) a token from that conduit. 
 - Manifestation: To play a card with the manifestation keyword, you must (discard) a token from one of your equipped cards with the conduit keyword.
 - Disconnected: You cannot add progress to this card using the Connect common test.
+- Dodge: Some game effects allow you to dodge cards when you are performing a test. When you dodge cards, those cards do not count as being between you and the card with which you are interacting. Cards dodged in this way do not fatigue you, and if they have the obstacle keyword, they do not prevent you from interacting with cards beyond them. These cards are still considered to be active , so their challenge effects still trigger.
 - Fatiguing: during Rest, if a ready card with Fatiguing is within reach/along the way/in your player area, suffer fatigue equal to its presence (or the number following "Fatiguing").
 - Friendly: a friendly card between you and your target does not fatigue you when you interact past it. Its challenge effects will still trigger if it's active.
 - Obstacle: You cannot interact with a card if a ready card with the obstacle keyword is between you and that card. You cannot travel if there are any ready cards with the obstacle keyword in play.

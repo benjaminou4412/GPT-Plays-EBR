@@ -1,0 +1,43 @@
+Role (Specialty): Undaunted Seeker — Exhaust: When you perform a test, dodge 1 card.
+Background: Traveler
+Specialty: Explorer
+Aspects: Awareness 3 • Fitness 2 • Focus 2 • Spirit 1
+
+Decklist (30 cards)
+Personality (8)
+
+2× Perceptive (AWA 1)
+
+2× Balanced (FIT 1)
+
+2× Versatile (FOC 1)
+
+2× Persuasive (SPI 1)
+
+Background — Traveler (10)
+
+2× Eagle Eye (AWA 1)
+
+2× Strider (FIT 0)
+
+2× Perfect Recall (FOC X)
+
+2× Reverb Locket (FOC 1) — Expert
+
+2× Ironwool Boots (SPI 1)
+
+Specialty — Explorer (10)
+
+2× A Leaf in the Breeze (AWA 1)
+
+2× Hydrolens Goggles (AWA 2)
+
+2× Share in the Valley’s Secrets (AWA 3)
+
+2× Boundary Sensor (FIT 1)
+
+2× Orlin Hiking Stave (FIT 2)
+
+Outside Interest (2)
+
+2× Infusion Canteen (FOC 1)
