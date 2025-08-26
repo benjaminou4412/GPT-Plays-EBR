@@ -118,6 +118,7 @@ Summary of steps:
    • Add any effort committed by other sources (gear, helpful beings, other Rangers’ Ranger tokens, etc.).
 3) Apply Modifiers
    • Reveal the top challenge card. Add/subtract the modifier shown for the required aspect. Apply any other relevant modifiers. Note: some challenge cards show [RESHUFFLE]; if any revealed this test go to discard, reshuffle the challenge discard back into the deck after the test.
+   • When the challenge deck is full, it contains 24 of those cards. For any modifier, there are 6 "+1" modifiers, 10 "0" modifiers, 7 "-1" modifiers, and 1 "-2" modifier.
 4) Success or Failure
    • If your total effort ≥ the test’s difficulty, you succeed; otherwise you fail. If the difficulty is “X”, the card defines X.
    • Resolve success effects. If effects scale with “your effort,” use the resulting effort (after modifiers).
@@ -126,6 +127,7 @@ Summary of steps:
    • Look at the challenge icon on the revealed challenge card: [CREST], [MOUNTAIN], or [SUN]. Resolve all matching challenge effects on active (ready) cards in play, once each, in this order: Weather → Location → Missions → Along the Way → Within Reach → your Player Area. If you were interacting within reach of another Ranger, that Ranger’s Within Reach is also active for this step.
    • Conditional arrows (double-arrow): only resolve the text after the arrow if you satisfied the preceding condition/instruction. If you don’t, that challenge effect did not “resolve” for other effects’ purposes.
    • If a card is cleared/exhausted before its challenge effect would resolve, it doesn’t trigger.
+   • If multiple challenge effects are to resolve in the same area, you choose the order of their resolution.
 
 COMMON TESTS (THE STANDARD, GO-TO WAYS TO INTERACT WITH CARDS)
 You always have access to these tests. They are specified as follows:
@@ -183,14 +185,16 @@ KEYWORDS & TERMS (NON-EXHAUSTIVE; SEE CARDS)
 - Obstacle: You cannot interact with a card if a ready card with the obstacle keyword is between you and that card. You cannot travel if there are any ready cards with the obstacle keyword in play.
 - Persistent: This card (and its attachments) stay in play when you travel.
 - Setup: At the start of the day, after step 1 of setup, you can search your deck for one card with the setup keyword and put it into play.
+- Scout: Look at the top X cards of the specified deck; typically, the ability specifies X. You may put the looked-at cards on the top or bottom of the specified deck in any order.
 - Unique: A Ranger cannot have two unique cards with the same name from their deck in play at the same time. If you play a second copy of the same unique card, the first one is immediately discarded. 
 - Use: many gear/moments say “Use X tokens” or “When you use a token …”; treat each token spent as one use unless the card clearly bundles them.
 
 END OF THE DAY — HOW A DAY ENDS
-- You cannot draw during Refresh → end the day.
+- You draw or fatigue from an empty deck for any reason → end the day.
 - You suffer your third [INJURY] → end the day after your current turn (then add a Lingering Injury if available).
 - A rule instructs you to end the day (e.g., mission text, campaign entry, or specific card effects). The most common case for this is if a Human from the path deck is cleared by harm.
 - Group may also choose to end the day as allowed by campaign rules (e.g., camping at a new location).
+- When a day ends, all cards leave play and are returned to the collection. In-game days correspond to real-life sessions. The only state retained between days is text recorded in the campaign log.
 
 
 SAVING/CONTINUING BETWEEN SESSIONS (CAMPAIGN)
