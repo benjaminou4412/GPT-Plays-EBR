@@ -1,3 +1,86 @@
-I'd like you to try playing the board game Earthborne Rangers. I've provided a good amount of documentation or scaffolding that should help you play the game in a purely text-based format, and like anybody new to a game, we should take some time to read through it before we start playing. Go ahead and read through the EBR_rulebook_web.pdf I've provided you, as well as the plaintext summaries/references I provided in the two .txt files. Thoroughly digest the rules of the game; card games like this are all about attention to detail and knowing the rules front and back. We'll start playing once you've shown you have a good understanding of the overall rules.
+I'd like you to try playing the board game Earthborne Rangers. I've provided a good amount of documentation or scaffolding that should help you play the game in a purely text-based format, and like anybody new to a game, we should take some time to read through it before we start playing. Go ahead and read through the Earthborne_Rangers_Learn_To_Play_LLM.txt and Deckbuilding Rules.txt I've provided you. Thoroughly digest the rules of the game; card games like this are all about attention to detail and knowing the rules front and back. We'll start playing once you've shown you have a good understanding of the overall rules.
+
+
 
 We'll skip the prologue. Go right ahead and use the json files I've provided to build yourself a deck. You'll have to pick one of four backgrounds (artisan, traveler, forager, or shepherd), and one of four specialties (artificer, explorer, conciliator, or shaper). Feel free to browse the 8 json files corresponding to those card sets to inform your decision, as well as personality_cards.json for the personality cards you're required to add to your deck.
+
+
+
+Let's begin the campaign!
+
+[To start your campaign, perform the first four steps of setup on page 10 of the rulebook, then return here for the remainder of setup.]
+
+Of the first four steps of setup, the one relevant to you and requiring your input is your mulligan decision. You draw [cards here]. How will you mulligan?
+
+
+
+
+Next up is our first bit of narrative, followed by an instruction from the campaign guide:
+
+{Cresting the gentle, grassy hill, you see the unmistakable silhouette of Lone Tree Station rise out of the highland plains before you. Lone Tree Station is aptly named. The single massive giga-redwood towers above the hills and swaying grass that surround it. You can just make out eaves and balconies among the gnarled bark, doors tucked into the winding roots, and hanging gardens suspended from branches.
+As you draw closer, a woman in a freshly pressed cloak steps out from the main entrance and waves. Calypsa, your mentor for the past nine months, strides toward you with a man who looks just about your age at her heels.
+“Hallo!” she calls out. “You made it. Just look at you!” She clasps your hands, her smile warm and her grip firm. “I’m glad to finally have you here,” she says. Then she turns. “This is Kal Iver. I trained Kal last year—right before I started training you.” Kal Iver gives you a nod in greeting. “A pleasure,” he says.}
+
+[Put the Lone Tree Station location into play in the surroundings.]
+
+You can find the details of Lone Tree Station in locations.json
+
+
+
+
+{Calypsa heads back to the station with you and Kal in tow. She speaks back over her shoulder. “Please, make yourselves at home. Explore the hanging gardens. Find Spirit Speaker Nal and Kordo, and strike up a conversation. Get to know the place.”
+“After you’ve spent some time here at the Station, you should head over to White Sky,” she says. “In fact, Hy Pimpot has some juniper biscuits baking right now. His food is legendary around these parts. Once those biscuits are ready and you’ve had a chance to poke around, take a parcel over to White Sky, and offer them to the people you meet. It’s been at least a year since our neighbors have enjoyed the company of Rangers bearing treats.” She turns to look at Kal. “What do you think, Kal? Good way to get started?”
+Kal grins at you in a way that you can’t quite describe as a sneer. “Handing out baked goods? I think that’s perfectly suited to their abilities,” he says.}
+
+[RANGERS CHOOSE: A. Tell Kal what he can do with his condescending attitude, or B. Ignore him.]
+
+
+
+
+{Calypsa shakes her head and laughs. “Oh, Kal. You’re not long past delivering biscuits yourself. It’s tradition, after all.”}
+
+[Write IMPRESSED CALYPSA on the campaign tracker.]
+
+
+
+
+[Gain the BISCUIT DELIVERY mission. (Add it to the Missions section of the campaign tracker, and put its card into play in the surroundings.)]
+
+You can find the details for Biscuit Delivery in missions.json
+
+
+
+
+[Check the campaign tracker for the weather for the current day (day 1). Put the corresponding weather card (A Perfect Day) into play.]
+
+You can find the details of A Perfect Day in weather.json
+
+
+
+
+
+{Calypsa turns to you. “Kal and I are heading out into the Valley. We’ll be on shadow patrol. That is, we’ll never be too far away from you for the next few weeks.”
+“You shouldn’t need our help, of course,” Kal says. “I can tell by looking at you that you’re more than capable.”
+“Farewell for now,” Calypsa says and starts down the eastern path away from Lone Tree. “Spirits guide you. Follow your instinct!” She and Kal walk steadily out of sight.}
+
+[Explore Lone Tree Station to find Hy Pimpot, retrieve the juniper biscuits, and learn what to do next.]
+
+The last few steps of setup I'll handle on my end, since I'm responsible for managing decks and other randomized components. 
+
+Following instructions, I shuffle together the Woods set and the Lone Tree Station set to form the path deck; you can find details for the cards in these sets in woods.json and lone_tree_station.json.
+
+Then, I follow the Arrival Setup instructions for Lone Tree Station. It begins by having us read campaign log entry 2:
+
+{2. Lone Tree Station
+Visible for miles around, Lone Tree is a single enormous giga-redwood rising out of the thick grass of a high prairie. From far away, the tree is all you can see, but as you come closer, you can see the rest of the station: the large box-garden plots hanging from the branches, the airship Swift moored to its dock in the tree’s crown, the doors and windows carved into the trunk and peeking out from among the roots. Lone Tree Station has been the base of operations for the Rangers ever since the people came to the Valley. And ever since you became a Ranger, it’s been your home.}
+
+Then, it has several instructions I'll execute.
+
+[Search the path deck for the next predator and discard it.]
+
+We find and discard a Prowling Wolhund.
+
+[Lead Ranger: Draw 1 path card.]
+
+
+With that, setup is completed. Are you ready to move onto Phase 1 - Path Cards?

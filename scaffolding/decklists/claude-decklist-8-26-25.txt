@@ -1,0 +1,31 @@
+Claude-1
+----------------------------------------------------------------------
+Traveler - Artificer - Masterful Engineer
+2 AWA, 1 SPI, 2 FIT, 3 FOC
+----------------------------------------------------------------------
+Personality
+
+2x Perceptive
+2x Balanced
+2x Inventive
+2x Thoughtful
+----------------------------------------------------------------------
+Background: Traveler
+
+2x Eagle Eye
+2x Trail Mix
+2x Perfect Recall
+2x Adaptable Multitool
+2x Ironwool Boots
+----------------------------------------------------------------------
+Specialty: Artificer
+
+2x Ferinodex
+2x Carbonforged Cable
+2x Infusion Canteen
+2x Memorill Sketchpad
+2x A Stone in the River
+----------------------------------------------------------------------
+Outside Interest
+
+2x Boundary Sensor

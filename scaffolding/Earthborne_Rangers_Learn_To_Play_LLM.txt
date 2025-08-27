@@ -8,7 +8,7 @@ CORE PRINCIPLES
 - Golden Rule: If a card contradicts a general rule, the card wins.
 - Rules Step: When rules give you numbered steps (e.g., round phases or test steps), do them in order. If a step says “for each …,” each individual resolution is its own step.
 - “You”: Unless a card says otherwise, “you” means the Ranger whose card/ability/test is being resolved.
-- Timing keywords (in brief): “Setup” = during setup only. “Start of Day” = once at the beginning of a day. “Refresh:” = during Phase 4. “Response:” = when the stated trigger happens; must resolve if it can.
+- Timing keywords: “Setup” = during setup only. “Start of Day” = once at the beginning of a day. “Refresh:” = during Phase 4. “Response:” = when the stated trigger happens; must resolve if it can, except for "response" on moments, which specifies the point in time in which they optionally can be played.
 - The letter "R": A capital R should be read as "per ranger". Typically it accompanies an integer quantity, so "2R" should be read as "2 per ranger". For solo play, R=1.
 
 THE PLAY AREA (ZONES)
@@ -72,7 +72,7 @@ PHASE 1 — PATH CARDS
 • Once everyone has drawn a path card, proceed to Phase 2: Ranger Turns.
 
 PHASE 2 — RANGER TURNS
-• Rangers take turns in any order. You can’t take two turns in a row unless you exhaust your Role card to immediately take a second turn, unless you're playing solo. There’s no fixed limit to turns per Ranger per round.
+• Rangers take turns in any order. There’s no fixed limit to turns per Ranger per round, so a solo ranger can take as many turns as they want in a row until they choose to rest.
 • On your turn, choose exactly one:
   1) Perform a Test (details below).
   2) Play a Ranger card from hand (pay its energy cost; resolve its type-specific effect).
@@ -101,6 +101,7 @@ In player order, each Ranger:
 
 PERFORMING A TEST (THE CENTRAL MECHANIC)
 You can attempt tests printed on cards (Ranger, path, weather, mission, location) and your four common tests. Tests are specified in the format "Aspect + Approach: Verb [Difficulty]". "Aspect" specifies the required aspect, one of AWA, FOC, FIT, and SPI. "Approach" specifies legal approach icons that can be committed, one of Conflict, Exploration, Reason, and Connection. "Verb" is mostly flavor, though particularly for the common tests (Avoid, Remember, Traverse, Connect), there may be other cards that specifically reference the verb (e.g. "Commit +1 effort to all your Traverse tests"). "Difficulty" is either a plain integer, "X" (which some accompanying definition for X), or unspecified, which defaults to difficulty=1. 
+To initiate a test, you must have at least 1 energy in the required aspect.
 Summary of steps:
 1) Choose Test
    • Pick any test on a card in play that isn’t in another Ranger’s player area (you can target their Within Reach/Along the Way cards, just not their equipped gear etc.).
@@ -113,7 +114,7 @@ Summary of steps:
       - When you interact with cards in your Player Area, no cards are between you and your interaction target.
       - Cards in your Player Area rarely have a presence value, so they usually don't fatigue you. 
 2) Commit Effort
-   • Commit [EN-…] of the required aspect from your energy pool; at least 1 of that aspect is mandatory to attempt the test.
+   • Commit [EN-…] of the required aspect from your energy pool; at least 1 of that aspect must be committed to attempt the test.
    • Discard any number of hand cards with matching approach icons; each icon adds +1 effort.
    • Add any effort committed by other sources (gear, helpful beings, other Rangers’ Ranger tokens, etc.).
 3) Apply Modifiers
