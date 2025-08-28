@@ -2,7 +2,21 @@ I'd like you to try playing the board game Earthborne Rangers. I've provided a g
 
 
 
-We'll skip the prologue. Go right ahead and use the json files I've provided to build yourself a deck. You'll have to pick one of four backgrounds (artisan, traveler, forager, or shepherd), and one of four specialties (artificer, explorer, conciliator, or shaper). Feel free to browse the 8 json files corresponding to those card sets to inform your decision, as well as personality_cards.json for the personality cards you're required to add to your deck.
+Here are some questions to quiz your understanding:
+
+1) I want to perform an AWA + [Exploration] test. I currently have 0AWA energy and 1 card in hand with 1 Exploration approach icon. Can I take the test by committing 0 energy and the 1 exploration icon, for a total of 1 committed effort?
+
+2) I perform a test that interacts with the location. Along the way, there is a being with 3 presence. Within reach, there is a being with 1 presence and Friendly, and another being with 2 presence and Ambush. I play a card to dodge the being along the way. How much fatigue do I take at the beginning of the test?
+
+3) I have a being with a progress treshold of 3 within my reach. Along the way, there's a feature with 2 presence and the Obstacle keyword. The weather, mission, said feature, and said being all have mountain challenge effects. The weather's mountain challenge effect reads "If there is an active Feature in play, exhaust it." The mission's mountain challenge effect reads "Add 1 token to the weather." The feature's challenge effect says "If this feature is ready, take 1 injury". The being's challenge effect says "If there is an active Feature in play, add 3 harm to it."
+
+If I successfully take a test that adds 3 progress to the being within my reach, and proceed to resolve mountain challenge effects, which challenge effects resolve?
+
+
+
+
+
+Go right ahead and use the json files I've provided to build yourself a deck. You'll have to pick one of four backgrounds (artisan, traveler, forager, or shepherd), and one of four specialties (artificer, explorer, conciliator, or shaper). Feel free to browse the 8 json files corresponding to those card sets to inform your decision, as well as personality_cards.json for the personality cards you're required to add to your deck. Fair warning - opportunities to change your deck are somewhat limited after the campaign begins. You should take the time to carefully read cards and consider their interactions.
 
 
 
@@ -78,9 +92,10 @@ Then, it has several instructions I'll execute.
 
 [Search the path deck for the next predator and discard it.]
 
-We find and discard a Prowling Wolhund.
+You find and discard a Prowling Wolhund.
 
 [Lead Ranger: Draw 1 path card.]
+
 
 
 With that, setup is completed. Are you ready to move onto Phase 1 - Path Cards?

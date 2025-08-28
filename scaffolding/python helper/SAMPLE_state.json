@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "day": 1,
+    "phase": "Setup",
+    "step": "Start",
+    "created_at": "2025-08-27T21:15:08.819117Z"
+  },
+  "campaign": {
+    "log": []
+  },
+  "surroundings": {},
+  "along_the_way": [],
+  "within_reach": {
+    "ranger_1": []
+  },
+  "rangers": {
+    "ranger_1": {
+      "hand": [],
+      "discard_pile": []
+    }
+  }
+}
